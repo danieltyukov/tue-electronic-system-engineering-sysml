@@ -27,10 +27,10 @@ int main(int argc, char **argv){
 	char table = argv[3][0];
 	char larm =  argv[4][0];
 	char rarm =  argv[5][0];
+	int a = argv[6][0];
 
 	//Check for number of changes
-	int a = 0; int g = 0;
-	if(make0 != make) a = 1;
+	int g = 0;
 	if(belt0 != belt) g = g+1;
 	if(table0 != table) g = g+1;;
 	if(larm0 != larm) g = g+1;
@@ -53,6 +53,11 @@ int main(int argc, char **argv){
 	else {volume = volume * (1 - ((3*window - delay)*delay/(2*window*window)) );} 
 	double cost = b*volume  + 72000*a + 108000*g;
 	double profit = price*volume - cost;
+	
+	printf("Delay (days) = %f \n", delay);
+	printf("Price (euro) = %f \n", price);
+	printf("Volume = %f \n", volume);
+	printf("Costs (euro)= %f \n", cost);
 	printf("Profit = %f \n", profit);
 	return 0;
 }
