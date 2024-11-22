@@ -7,7 +7,18 @@
     <packageImport xmi:type="uml:PackageImport" xmi:id="_fwYlkKg_Ee-gVpz4eEJlLQ">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_1Eus8Kg_Ee-kyNuuq7T5lA" name="Behaviours"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_1Eus8Kg_Ee-kyNuuq7T5lA" name="Behaviours">
+      <packagedElement xmi:type="uml:Package" xmi:id="_lNuSYKjLEe-r95W76X3QKw" name="Use_Cases">
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_oeKvcKjLEe-r95W76X3QKw" name="Startup Machine" subject="_iENz8KhAEe-kyNuuq7T5lA">
+          <include xmi:type="uml:Include" xmi:id="_K2UEUKjMEe-r95W76X3QKw" addition="_oeLWgKjLEe-r95W76X3QKw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_zx2DIKjLEe-r95W76X3QKw" name="Assemble product" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_oeLWgKjLEe-r95W76X3QKw" name="Load inputs" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_oeLWgajLEe-r95W76X3QKw" name="Unload outputs" subject="_iENz8KhAEe-kyNuuq7T5lA">
+          <include xmi:type="uml:Include" xmi:id="_Nn40EKjMEe-r95W76X3QKw" addition="_oeKvcKjLEe-r95W76X3QKw"/>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_376VcKg_Ee-kyNuuq7T5lA" name="Composition">
       <ownedComment xmi:type="uml:Comment" xmi:id="_IJr5sKhCEe-kyNuuq7T5lA">
         <body>Pickup_Assembly: Elements used for I/O
@@ -23,7 +34,7 @@ according to some logic
         <body>This is for organizing the files</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_lk4zcKhCEe-kyNuuq7T5lA" name="Systems">
-        <packagedElement xmi:type="uml:Class" xmi:id="_iENz8KhAEe-kyNuuq7T5lA" name="xCPS_Machine"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iENz8KhAEe-kyNuuq7T5lA" name="xCPS" useCase="_oeKvcKjLEe-r95W76X3QKw _oeLWgKjLEe-r95W76X3QKw _oeLWgajLEe-r95W76X3QKw _zx2DIKjLEe-r95W76X3QKw"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_2vhlYKhAEe-kyNuuq7T5lA" name="Pickup_Assembly"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_5RmEEKhBEe-kyNuuq7T5lA" name="Conveyor_Assembly"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_CKHj8KhCEe-kyNuuq7T5lA" name="Logical_Actions"/>
@@ -144,7 +155,15 @@ according to some logic
         </packagedElement>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_7ma4UKg_Ee-kyNuuq7T5lA" name="Miscelaneous"/>
+    <packagedElement xmi:type="uml:Package" xmi:id="_7ma4UKg_Ee-kyNuuq7T5lA" name="Miscelaneous">
+      <packagedElement xmi:type="uml:Package" xmi:id="_jKhuwKjPEe-L8f7L98enqw" name="Value_types">
+        <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_hNQL8KjeEe-L8f7L98enqw" name="T">
+          <generalization xmi:type="uml:Generalization" xmi:id="_i-3TgKjeEe-L8f7L98enqw">
+            <general xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </generalization>
+        </packagedElement>
+      </packagedElement>
+    </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fvOvAKg_Ee-gVpz4eEJlLQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fvRLQKg_Ee-gVpz4eEJlLQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
@@ -204,6 +223,12 @@ according to some logic
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/uml2/5.0.0/UML/Profile/Standard#/"/>
       </eAnnotations>
       <appliedProfile xmi:type="uml:Profile" href="pathmap://UML_PROFILES/Standard.profile.uml#_0"/>
+    </profileApplication>
+    <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_rI6ZQKjdEe-L8f7L98enqw">
+      <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rI9ckKjdEe-L8f7L98enqw" source="http://www.eclipse.org/uml2/2.0.0/UML">
+        <references xmi:type="ecore:EPackage" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#_Kv8EIKFXEeS_KNX0nfvIVQ"/>
+      </eAnnotations>
+      <appliedProfile xmi:type="uml:Profile" href="pathmap://PAPYRUS_ACTIONLANGUAGE_PROFILE/ActionLanguage-Profile.profile.uml#ActionLanguage"/>
     </profileApplication>
   </uml:Model>
   <Blocks:Block xmi:id="_iGBKwKhAEe-kyNuuq7T5lA" base_Class="_iENz8KhAEe-kyNuuq7T5lA"/>
