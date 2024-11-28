@@ -9,14 +9,28 @@
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_1Eus8Kg_Ee-kyNuuq7T5lA" name="Behaviours">
       <packagedElement xmi:type="uml:Package" xmi:id="_lNuSYKjLEe-r95W76X3QKw" name="Use_Cases">
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_oeKvcKjLEe-r95W76X3QKw" name="Startup Machine" subject="_iENz8KhAEe-kyNuuq7T5lA">
-          <include xmi:type="uml:Include" xmi:id="_K2UEUKjMEe-r95W76X3QKw" addition="_oeLWgKjLEe-r95W76X3QKw"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_oeKvcKjLEe-r95W76X3QKw" name="Startup Machine" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_zx2DIKjLEe-r95W76X3QKw" name="Assemble product" subject="_iENz8KhAEe-kyNuuq7T5lA">
+          <include xmi:type="uml:Include" xmi:id="_0H66QK2AEe-B9aOkkxc7lg" addition="_oeKvcKjLEe-r95W76X3QKw"/>
+          <include xmi:type="uml:Include" xmi:id="_1SgeEK2AEe-B9aOkkxc7lg" addition="_oeLWgKjLEe-r95W76X3QKw"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_zx2DIKjLEe-r95W76X3QKw" name="Assemble product" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_oeLWgKjLEe-r95W76X3QKw" name="Load inputs" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_oeLWgajLEe-r95W76X3QKw" name="Unload outputs" subject="_iENz8KhAEe-kyNuuq7T5lA">
-          <include xmi:type="uml:Include" xmi:id="_Nn40EKjMEe-r95W76X3QKw" addition="_oeKvcKjLEe-r95W76X3QKw"/>
-        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_oeLWgajLEe-r95W76X3QKw" name="Unload outputs" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_fsSjkK2AEe-B9aOkkxc7lg" name="Operator"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_NNDysK2BEe-B9aOkkxc7lg" memberEnd="_NNFn4K2BEe-B9aOkkxc7lg _NNGO8K2BEe-B9aOkkxc7lg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_NNFA0K2BEe-B9aOkkxc7lg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_NNFA0a2BEe-B9aOkkxc7lg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NNFn4K2BEe-B9aOkkxc7lg" name="startup machine" type="_oeKvcKjLEe-r95W76X3QKw" association="_NNDysK2BEe-B9aOkkxc7lg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_NNGO8K2BEe-B9aOkkxc7lg" name="operator" type="_fsSjkK2AEe-B9aOkkxc7lg" association="_NNDysK2BEe-B9aOkkxc7lg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_OV0KgK2BEe-B9aOkkxc7lg" memberEnd="_OV0xkq2BEe-B9aOkkxc7lg _OV1YoK2BEe-B9aOkkxc7lg">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_OV0xkK2BEe-B9aOkkxc7lg" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_OV0xka2BEe-B9aOkkxc7lg" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_OV0xkq2BEe-B9aOkkxc7lg" name="load inputs" type="_oeLWgKjLEe-r95W76X3QKw" association="_OV0KgK2BEe-B9aOkkxc7lg"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_OV1YoK2BEe-B9aOkkxc7lg" name="operator" type="_fsSjkK2AEe-B9aOkkxc7lg" association="_OV0KgK2BEe-B9aOkkxc7lg"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_376VcKg_Ee-kyNuuq7T5lA" name="Composition">
@@ -34,16 +48,30 @@ according to some logic
         <body>This is for organizing the files</body>
       </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_lk4zcKhCEe-kyNuuq7T5lA" name="Systems">
-        <packagedElement xmi:type="uml:Class" xmi:id="_iENz8KhAEe-kyNuuq7T5lA" name="xCPS" useCase="_oeKvcKjLEe-r95W76X3QKw _oeLWgKjLEe-r95W76X3QKw _oeLWgajLEe-r95W76X3QKw _zx2DIKjLEe-r95W76X3QKw"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_iENz8KhAEe-kyNuuq7T5lA" name="xCPS" useCase="_oeKvcKjLEe-r95W76X3QKw _oeLWgKjLEe-r95W76X3QKw _oeLWgajLEe-r95W76X3QKw _zx2DIKjLEe-r95W76X3QKw _mSW4oK2AEe-B9aOkkxc7lg _tgTGAK2AEe-B9aOkkxc7lg">
+          <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mSW4oK2AEe-B9aOkkxc7lg" name="Cleaning and maintainance" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
+          <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tgTGAK2AEe-B9aOkkxc7lg" name="Troubleshooting" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_2vhlYKhAEe-kyNuuq7T5lA" name="Pickup_Assembly"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_5RmEEKhBEe-kyNuuq7T5lA" name="Conveyor_Assembly"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_CKHj8KhCEe-kyNuuq7T5lA" name="Logical_Actions"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_CKHj8KhCEe-kyNuuq7T5lA" name="Conveyor"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_rS6tQKhCEe-kyNuuq7T5lA" name="Components">
-        <packagedElement xmi:type="uml:Class" xmi:id="_6E4-sKhAEe-kyNuuq7T5lA" name="Gantry_arm"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_8jJJ0KhAEe-kyNuuq7T5lA" name="Loading_table"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_6E4-sKhAEe-kyNuuq7T5lA" name="Gantry_arm">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_rvy2AKvxEe-d8PAuPFafEw" name="capacity" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_8jJJ0KhAEe-kyNuuq7T5lA" name="Loading_table">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_hp6LIKvxEe-d8PAuPFafEw" name="capacity" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_iLA4IKhDEe-kyNuuq7T5lA" name="Belt"/>
-        <packagedElement xmi:type="uml:Class" xmi:id="_kCCrMKhDEe-kyNuuq7T5lA" name="Index_table"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_kCCrMKhDEe-kyNuuq7T5lA" name="Index_table">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_vtgBsKvxEe-d8PAuPFafEw" name="capacity" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_WrgScKhEEe-kyNuuq7T5lA" name="Optical_Sensor"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Y1_0EKhEEe-kyNuuq7T5lA" name="Stopper"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_bg-zoKhEEe-kyNuuq7T5lA" name="Turner"/>
@@ -75,13 +103,6 @@ according to some logic
           <ownedEnd xmi:type="uml:Property" xmi:id="_v7gecqhBEe-kyNuuq7T5lA" name="pickup_assembly" type="_2vhlYKhAEe-kyNuuq7T5lA" aggregation="composite" association="_v7f3YKhBEe-kyNuuq7T5lA"/>
           <ownedEnd xmi:type="uml:Property" xmi:id="_v7hFgKhBEe-kyNuuq7T5lA" name="xcps_machine" type="_iENz8KhAEe-kyNuuq7T5lA" association="_v7f3YKhBEe-kyNuuq7T5lA"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_7jUPEKhBEe-kyNuuq7T5lA" memberEnd="_7jUPE6hBEe-kyNuuq7T5lA _7jU2IKhBEe-kyNuuq7T5lA">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7jUPEahBEe-kyNuuq7T5lA" source="org.eclipse.papyrus">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7jUPEqhBEe-kyNuuq7T5lA" key="nature" value="UML_Nature"/>
-          </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_7jUPE6hBEe-kyNuuq7T5lA" name="conveyor_assembly" type="_5RmEEKhBEe-kyNuuq7T5lA" aggregation="composite" association="_7jUPEKhBEe-kyNuuq7T5lA"/>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_7jU2IKhBEe-kyNuuq7T5lA" name="xcps_machine" type="_iENz8KhAEe-kyNuuq7T5lA" association="_7jUPEKhBEe-kyNuuq7T5lA"/>
-        </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_GqMc4KhCEe-kyNuuq7T5lA" memberEnd="_GqOSEKhCEe-kyNuuq7T5lA _GqO5IKhCEe-kyNuuq7T5lA">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GqNrAKhCEe-kyNuuq7T5lA" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GqNrAahCEe-kyNuuq7T5lA" key="nature" value="UML_Nature"/>
@@ -89,7 +110,7 @@ according to some logic
           <ownedEnd xmi:type="uml:Property" xmi:id="_GqOSEKhCEe-kyNuuq7T5lA" name="logical_actions" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite" association="_GqMc4KhCEe-kyNuuq7T5lA"/>
           <ownedEnd xmi:type="uml:Property" xmi:id="_GqO5IKhCEe-kyNuuq7T5lA" name="xcps_machine" type="_iENz8KhAEe-kyNuuq7T5lA" association="_GqMc4KhCEe-kyNuuq7T5lA"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Association" xmi:id="_pMVl0KhDEe-kyNuuq7T5lA" memberEnd="_pMXbAKhDEe-kyNuuq7T5lA _pMYCEKhDEe-kyNuuq7T5lA">
+        <packagedElement xmi:type="uml:Association" xmi:id="_pMVl0KhDEe-kyNuuq7T5lA" visibility="private" memberEnd="_pMXbAKhDEe-kyNuuq7T5lA _pMYCEKhDEe-kyNuuq7T5lA">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_pMWz8KhDEe-kyNuuq7T5lA" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_pMWz8ahDEe-kyNuuq7T5lA" key="nature" value="UML_Nature"/>
           </eAnnotations>
@@ -97,17 +118,17 @@ according to some logic
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_2QlfQKhDEe-kyNuuq7T5lA" value="6"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_2Qn7gKhDEe-kyNuuq7T5lA" value="6"/>
           </ownedEnd>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_pMYCEKhDEe-kyNuuq7T5lA" name="conveyor_assembly" type="_5RmEEKhBEe-kyNuuq7T5lA" association="_pMVl0KhDEe-kyNuuq7T5lA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_pMYCEKhDEe-kyNuuq7T5lA" name="conveyor_assembly" type="_CKHj8KhCEe-kyNuuq7T5lA" association="_pMVl0KhDEe-kyNuuq7T5lA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_puiT8KhDEe-kyNuuq7T5lA" memberEnd="_puiT86hDEe-kyNuuq7T5lA _pui7AKhDEe-kyNuuq7T5lA">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_puiT8ahDEe-kyNuuq7T5lA" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_puiT8qhDEe-kyNuuq7T5lA" key="nature" value="UML_Nature"/>
           </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_pui7AKhDEe-kyNuuq7T5lA" name="conveyor_assembly" type="_CKHj8KhCEe-kyNuuq7T5lA" association="_puiT8KhDEe-kyNuuq7T5lA"/>
           <ownedEnd xmi:type="uml:Property" xmi:id="_puiT86hDEe-kyNuuq7T5lA" name="index_table" type="_kCCrMKhDEe-kyNuuq7T5lA" aggregation="composite" association="_puiT8KhDEe-kyNuuq7T5lA">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_upw30KhDEe-kyNuuq7T5lA" value="2"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_upzUEKhDEe-kyNuuq7T5lA" value="2"/>
           </ownedEnd>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_pui7AKhDEe-kyNuuq7T5lA" name="conveyor_assembly" type="_5RmEEKhBEe-kyNuuq7T5lA" association="_puiT8KhDEe-kyNuuq7T5lA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_sOSecKhEEe-kyNuuq7T5lA" memberEnd="_sOTskahEEe-kyNuuq7T5lA _sOUToKhEEe-kyNuuq7T5lA">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sOTFgKhEEe-kyNuuq7T5lA" source="org.eclipse.papyrus">
@@ -235,7 +256,6 @@ according to some logic
   <Blocks:Block xmi:id="_2vphMKhAEe-kyNuuq7T5lA" base_Class="_2vhlYKhAEe-kyNuuq7T5lA"/>
   <Blocks:Block xmi:id="_6E8pEKhAEe-kyNuuq7T5lA" base_Class="_6E4-sKhAEe-kyNuuq7T5lA"/>
   <Blocks:Block xmi:id="_8jPQcKhAEe-kyNuuq7T5lA" base_Class="_8jJJ0KhAEe-kyNuuq7T5lA"/>
-  <Blocks:Block xmi:id="_5RogUKhBEe-kyNuuq7T5lA" base_Class="_5RmEEKhBEe-kyNuuq7T5lA"/>
   <Blocks:Block xmi:id="_CKKAMKhCEe-kyNuuq7T5lA" base_Class="_CKHj8KhCEe-kyNuuq7T5lA"/>
   <Blocks:Block xmi:id="_iLGXsKhDEe-kyNuuq7T5lA" base_Class="_iLA4IKhDEe-kyNuuq7T5lA"/>
   <Blocks:Block xmi:id="_kCG8oKhDEe-kyNuuq7T5lA" base_Class="_kCCrMKhDEe-kyNuuq7T5lA"/>
