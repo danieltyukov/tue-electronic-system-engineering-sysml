@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks">
+<xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows">
   <uml:Model xmi:id="_fur8cKg_Ee-gVpz4eEJlLQ" name="xCPS">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_fwUUIqg_Ee-gVpz4eEJlLQ">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
@@ -102,11 +102,29 @@ pointless in this diagram</body>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-gipY63MEe-62LrKKCAHKA" value="5"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-gjQcK3MEe-62LrKKCAHKA" value="5"/>
           </ownedAttribute>
+<<<<<<< HEAD
+=======
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_uJ7rEK4_Ee-72egos7KMFg" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_uJ8SIK4_Ee-72egos7KMFg" name="capacity" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Dlf7UK5tEe-stoZHHNVWcQ" name="delay" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+>>>>>>> 6764712 (working on the ibd s now)
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_rS6tQKhCEe-kyNuuq7T5lA" name="Components">
         <packagedElement xmi:type="uml:Class" xmi:id="_6E4-sKhAEe-kyNuuq7T5lA" name="Gantry_arm">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_rvy2AKvxEe-d8PAuPFafEw" name="capacity" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_BbilMK5tEe-stoZHHNVWcQ" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_BbilMa5tEe-stoZHHNVWcQ" name="delay" visibility="public">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
         </packagedElement>
@@ -115,11 +133,34 @@ pointless in this diagram</body>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
         </packagedElement>
+<<<<<<< HEAD
         <packagedElement xmi:type="uml:Class" xmi:id="_iLA4IKhDEe-kyNuuq7T5lA" name="Belt"/>
+=======
+        <packagedElement xmi:type="uml:Class" xmi:id="_iLA4IKhDEe-kyNuuq7T5lA" name="Belt">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_cXGioK4_Ee-72egos7KMFg" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_lsxRgK4_Ee-72egos7KMFg" name="capacity" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_89E10K5sEe-stoZHHNVWcQ" name="delay" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+>>>>>>> 6764712 (working on the ibd s now)
         <packagedElement xmi:type="uml:Class" xmi:id="_kCCrMKhDEe-kyNuuq7T5lA" name="Index_table">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_vtgBsKvxEe-d8PAuPFafEw" name="capacity" visibility="public">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
+<<<<<<< HEAD
+=======
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_dPxQAK4_Ee-72egos7KMFg" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_6n_00K5sEe-stoZHHNVWcQ" name="delay" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+>>>>>>> 6764712 (working on the ibd s now)
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_WrgScKhEEe-kyNuuq7T5lA" name="Optical_Sensor"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Y1_0EKhEEe-kyNuuq7T5lA" name="Stopper"/>
@@ -128,6 +169,7 @@ pointless in this diagram</body>
         <packagedElement xmi:type="uml:Class" xmi:id="_mBMDAKhEEe-kyNuuq7T5lA" name="Switch"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_98-M0K3NEe-62LrKKCAHKA" name="Fast_Table">
           <generalization xmi:type="uml:Generalization" xmi:id="_yKF_MK3OEe-62LrKKCAHKA" general="_kCCrMKhDEe-kyNuuq7T5lA"/>
+<<<<<<< HEAD
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="__4Rb4K3NEe-62LrKKCAHKA" name="Slow_Table">
           <generalization xmi:type="uml:Generalization" xmi:id="_1jKz0K3OEe-62LrKKCAHKA" general="_kCCrMKhDEe-kyNuuq7T5lA"/>
@@ -143,6 +185,59 @@ pointless in this diagram</body>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_NDrtQK3OEe-62LrKKCAHKA" name="Slow_Belts">
           <generalization xmi:type="uml:Generalization" xmi:id="_ueZwkK3OEe-62LrKKCAHKA" general="_iLA4IKhDEe-kyNuuq7T5lA"/>
+=======
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_i3ZRwK49Ee-72egos7KMFg" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_iWjDIK5sEe-stoZHHNVWcQ" name="delay" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="__4Rb4K3NEe-62LrKKCAHKA" name="Slow_Table">
+          <generalization xmi:type="uml:Generalization" xmi:id="_1jKz0K3OEe-62LrKKCAHKA" general="_kCCrMKhDEe-kyNuuq7T5lA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_tIl0wK49Ee-72egos7KMFg" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_rG9I0K5sEe-stoZHHNVWcQ" name="delay" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DIsDwK3OEe-62LrKKCAHKA" name="Normal_Table">
+          <generalization xmi:type="uml:Generalization" xmi:id="_z6JAgK3OEe-62LrKKCAHKA" general="_kCCrMKhDEe-kyNuuq7T5lA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_1idpwK49Ee-72egos7KMFg" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_vcbUQK5sEe-stoZHHNVWcQ" name="delay" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_KohSYK3OEe-62LrKKCAHKA" name="Fast_Belts">
+          <generalization xmi:type="uml:Generalization" xmi:id="_sAh_8K3OEe-62LrKKCAHKA" general="_iLA4IKhDEe-kyNuuq7T5lA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_2A__4K49Ee-72egos7KMFg" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_wYQqYK5sEe-stoZHHNVWcQ" name="delay" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Lw_WUK3OEe-62LrKKCAHKA" name="Normal_Belts">
+          <generalization xmi:type="uml:Generalization" xmi:id="_tH4CgK3OEe-62LrKKCAHKA" general="_iLA4IKhDEe-kyNuuq7T5lA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_28afQK49Ee-72egos7KMFg" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_v2Kp8K5sEe-stoZHHNVWcQ" name="delay" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_NDrtQK3OEe-62LrKKCAHKA" name="Slow_Belts">
+          <generalization xmi:type="uml:Generalization" xmi:id="_ueZwkK3OEe-62LrKKCAHKA" general="_iLA4IKhDEe-kyNuuq7T5lA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_3O59cK49Ee-72egos7KMFg" name="cost">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_yD5s0K5sEe-stoZHHNVWcQ" name="delay" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+>>>>>>> 6764712 (working on the ibd s now)
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_tkQdwKhCEe-kyNuuq7T5lA" name="Relations">
@@ -225,6 +320,21 @@ pointless in this diagram</body>
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-gipYa3MEe-62LrKKCAHKA" key="nature" value="UML_Nature"/>
           </eAnnotations>
           <ownedEnd xmi:type="uml:Property" xmi:id="_-gjQca3MEe-62LrKKCAHKA" name="manufacturing module" type="_CKHj8KhCEe-kyNuuq7T5lA" association="_-giCUK3MEe-62LrKKCAHKA"/>
+        </packagedElement>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_KHArEK5uEe-stoZHHNVWcQ" name="Flow Types">
+        <packagedElement xmi:type="uml:Class" xmi:id="_MI97wK5uEe-stoZHHNVWcQ" name="Token"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Oizg8K5uEe-stoZHHNVWcQ" name="Token In">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_DD0fsK5vEe-stoZHHNVWcQ" name="In" visibility="public" type="_MI97wK5uEe-stoZHHNVWcQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W8r9AK5uEe-stoZHHNVWcQ" name="Token Out">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_4_6VUK5vEe-tzZS-GCH0Kw" name="Out" type="_MI97wK5uEe-stoZHHNVWcQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_FbH40K5wEe-tzZS-GCH0Kw" name="Top">
+          <generalization xmi:type="uml:Generalization" xmi:id="_IP2qQK5wEe-tzZS-GCH0Kw" general="_MI97wK5uEe-stoZHHNVWcQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_F9jQcK5wEe-tzZS-GCH0Kw" name="Bottom">
+          <generalization xmi:type="uml:Generalization" xmi:id="_HZRAgK5wEe-tzZS-GCH0Kw" general="_MI97wK5uEe-stoZHHNVWcQ"/>
         </packagedElement>
       </packagedElement>
     </packagedElement>
@@ -322,4 +432,11 @@ pointless in this diagram</body>
   <Blocks:Block xmi:id="_KomK4K3OEe-62LrKKCAHKA" base_Class="_KohSYK3OEe-62LrKKCAHKA"/>
   <Blocks:Block xmi:id="_LxBLgK3OEe-62LrKKCAHKA" base_Class="_Lw_WUK3OEe-62LrKKCAHKA"/>
   <Blocks:Block xmi:id="_NDticK3OEe-62LrKKCAHKA" base_Class="_NDrtQK3OEe-62LrKKCAHKA"/>
+  <Blocks:Block xmi:id="_MJCNMK5uEe-stoZHHNVWcQ" base_Class="_MI97wK5uEe-stoZHHNVWcQ"/>
+  <Blocks:Block xmi:id="_Oi3LUK5uEe-stoZHHNVWcQ" base_Class="_Oizg8K5uEe-stoZHHNVWcQ"/>
+  <Blocks:Block xmi:id="_W8wOcK5uEe-stoZHHNVWcQ" base_Class="_W8r9AK5uEe-stoZHHNVWcQ"/>
+  <PortsAndFlows:FlowProperty xmi:id="_DD4xIK5vEe-stoZHHNVWcQ" base_Property="_DD0fsK5vEe-stoZHHNVWcQ" direction="in"/>
+  <PortsAndFlows:FlowProperty xmi:id="_5AEGUK5vEe-tzZS-GCH0Kw" base_Property="_4_6VUK5vEe-tzZS-GCH0Kw" direction="out"/>
+  <Blocks:Block xmi:id="_FbMKQK5wEe-tzZS-GCH0Kw" base_Class="_FbH40K5wEe-tzZS-GCH0Kw"/>
+  <Blocks:Block xmi:id="_F9lssK5wEe-tzZS-GCH0Kw" base_Class="_F9jQcK5wEe-tzZS-GCH0Kw"/>
 </xmi:XMI>
