@@ -195,7 +195,7 @@ pointless in this diagram</body>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_KohSYK3OEe-62LrKKCAHKA" name="Fast_Belts">
+        <packagedElement xmi:type="uml:Class" xmi:id="_KohSYK3OEe-62LrKKCAHKA" name="Fast_Belt">
           <generalization xmi:type="uml:Generalization" xmi:id="_sAh_8K3OEe-62LrKKCAHKA" general="_iLA4IKhDEe-kyNuuq7T5lA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_2A__4K49Ee-72egos7KMFg" name="cost">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
@@ -204,7 +204,7 @@ pointless in this diagram</body>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_Lw_WUK3OEe-62LrKKCAHKA" name="Normal_Belts">
+        <packagedElement xmi:type="uml:Class" xmi:id="_Lw_WUK3OEe-62LrKKCAHKA" name="Normal_Belt">
           <generalization xmi:type="uml:Generalization" xmi:id="_tH4CgK3OEe-62LrKKCAHKA" general="_iLA4IKhDEe-kyNuuq7T5lA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_28afQK49Ee-72egos7KMFg" name="cost">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
@@ -213,7 +213,7 @@ pointless in this diagram</body>
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_NDrtQK3OEe-62LrKKCAHKA" name="Slow_Belts">
+        <packagedElement xmi:type="uml:Class" xmi:id="_NDrtQK3OEe-62LrKKCAHKA" name="Slow_Belt">
           <generalization xmi:type="uml:Generalization" xmi:id="_ueZwkK3OEe-62LrKKCAHKA" general="_iLA4IKhDEe-kyNuuq7T5lA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_3O59cK49Ee-72egos7KMFg" name="cost">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
