@@ -77,19 +77,11 @@ pointless in this diagram</body>
         <packagedElement xmi:type="uml:Class" xmi:id="_iENz8KhAEe-kyNuuq7T5lA" name="xCPS" useCase="_oeKvcKjLEe-r95W76X3QKw _oeLWgKjLEe-r95W76X3QKw _oeLWgajLEe-r95W76X3QKw _zx2DIKjLEe-r95W76X3QKw _mSW4oK2AEe-B9aOkkxc7lg _tgTGAK2AEe-B9aOkkxc7lg">
           <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mSW4oK2AEe-B9aOkkxc7lg" name="Cleaning and maintainance" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
           <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tgTGAK2AEe-B9aOkkxc7lg" name="Troubleshooting" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_F8mWkLNEEe-ZoZe4AvCuiQ" name="i/o" type="_2vhlYKhAEe-kyNuuq7T5lA" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_P2lTcLNEEe-ZoZe4AvCuiQ" name="manufacture" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_4FDQkLNGEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_e-HBULNGEe-ZoZe4AvCuiQ" name="Connector6">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_e-IPcLNGEe-ZoZe4AvCuiQ" partWithPort="_F8mWkLNEEe-ZoZe4AvCuiQ" role="_VRubkLNGEe-ZoZe4AvCuiQ"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_e-I2gLNGEe-ZoZe4AvCuiQ" partWithPort="_P2lTcLNEEe-ZoZe4AvCuiQ" role="_1hEtYLNFEe-ZoZe4AvCuiQ"/>
-          </ownedConnector>
-          <ownedConnector xmi:type="uml:Connector" xmi:id="_fwMlkLNGEe-ZoZe4AvCuiQ" name="BindingConnector7">
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_fwNzsLNGEe-ZoZe4AvCuiQ" partWithPort="_F8mWkLNEEe-ZoZe4AvCuiQ" role="_1-544LNFEe-ZoZe4AvCuiQ"/>
-            <end xmi:type="uml:ConnectorEnd" xmi:id="_fwNzsbNGEe-ZoZe4AvCuiQ" partWithPort="_P2lTcLNEEe-ZoZe4AvCuiQ" role="_Je9_MLNGEe-ZoZe4AvCuiQ"/>
-          </ownedConnector>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_XVtCQLGVEe-4ROfc_zS7lA" name="i/O Module" type="_2vhlYKhAEe-kyNuuq7T5lA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_aCmtYLGVEe-4ROfc_zS7lA" name="manufacturing Module" type="_CKHj8KhCEe-kyNuuq7T5lA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_2vhlYKhAEe-kyNuuq7T5lA" name="I/O Module">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_kEELQLGVEe-4ROfc_zS7lA" name="Operator" type="_fsSjkK2AEe-B9aOkkxc7lg"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_agAsUK3KEe-62LrKKCAHKA" name="gantry_arm" type="_6E4-sKhAEe-kyNuuq7T5lA" aggregation="composite" association="_af9pAK3KEe-62LrKKCAHKA">
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_agAsUa3KEe-62LrKKCAHKA"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_agAsUq3KEe-62LrKKCAHKA" value="1"/>
@@ -99,9 +91,22 @@ pointless in this diagram</body>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d7jmIK3KEe-62LrKKCAHKA"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d7jmIa3KEe-62LrKKCAHKA" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_1-544LNFEe-ZoZe4AvCuiQ" name="left_gantry" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_VRubkLNGEe-ZoZe4AvCuiQ" name="right_gantry" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_heZMwLNGEe-ZoZe4AvCuiQ" name="load" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_cVkLULGREe-4ROfc_zS7lA" name="Connector5">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_cVpD0LGREe-4ROfc_zS7lA" partWithPort="_agAsUK3KEe-62LrKKCAHKA" role="_5G6DQK5xEe-tzZS-GCH0Kw"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_cVpq4LGREe-4ROfc_zS7lA" partWithPort="_beOoEq3KEe-62LrKKCAHKA" role="_dSTV0LGQEe-4ROfc_zS7lA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_c_f5ILGREe-4ROfc_zS7lA" name="Connector6">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_c_ggMLGREe-4ROfc_zS7lA" partWithPort="_d7i_Eq3KEe-62LrKKCAHKA" role="_6VQswK5xEe-tzZS-GCH0Kw"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_c_hHQLGREe-4ROfc_zS7lA" partWithPort="_beOoEq3KEe-62LrKKCAHKA" role="_txv-UK5wEe-tzZS-GCH0Kw"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_uMNf8LGVEe-4ROfc_zS7lA" name="Connector8">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_uMNf8bGVEe-4ROfc_zS7lA" partWithPort="_beOoEq3KEe-62LrKKCAHKA" role="_txv-UK5wEe-tzZS-GCH0Kw"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_uMOHALGVEe-4ROfc_zS7lA" role="_kEELQLGVEe-4ROfc_zS7lA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_u2QigLGVEe-4ROfc_zS7lA" name="Connector9">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_u2RwoLGVEe-4ROfc_zS7lA" partWithPort="_beOoEq3KEe-62LrKKCAHKA" role="_dSTV0LGQEe-4ROfc_zS7lA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_u2RwobGVEe-4ROfc_zS7lA" role="_kEELQLGVEe-4ROfc_zS7lA"/>
+          </ownedConnector>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_CKHj8KhCEe-kyNuuq7T5lA" name="Manufacturing Module">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_GvG4Mq3LEe-62LrKKCAHKA" name="pick_place" type="_kikI4KhEEe-kyNuuq7T5lA" aggregation="composite" association="_GvFDAK3LEe-62LrKKCAHKA"/>
@@ -130,8 +135,6 @@ pointless in this diagram</body>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_Dlf7UK5tEe-stoZHHNVWcQ" name="delay" visibility="public">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_1hEtYLNFEe-ZoZe4AvCuiQ" name="in_belt" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_Je9_MLNGEe-ZoZe4AvCuiQ" name="out_belt" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_rS6tQKhCEe-kyNuuq7T5lA" name="Components">
@@ -145,13 +148,15 @@ pointless in this diagram</body>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_BbilMa5tEe-stoZHHNVWcQ" name="delay" visibility="public">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_01VBsLNFEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_5G6DQK5xEe-tzZS-GCH0Kw" name="out" visibility="public" type="_W8r9AK5uEe-stoZHHNVWcQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_6VQswK5xEe-tzZS-GCH0Kw" name="in" visibility="public" type="_Oizg8K5uEe-stoZHHNVWcQ" aggregation="composite"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_8jJJ0KhAEe-kyNuuq7T5lA" name="Loading_table">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_hp6LIKvxEe-d8PAuPFafEw" name="capacity" visibility="public">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_1nVqQLNBEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_txv-UK5wEe-tzZS-GCH0Kw" name="out" visibility="public" type="_W8r9AK5uEe-stoZHHNVWcQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_dSTV0LGQEe-4ROfc_zS7lA" name="in" visibility="public" type="_Oizg8K5uEe-stoZHHNVWcQ" aggregation="composite"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_iLA4IKhDEe-kyNuuq7T5lA" name="Belt">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_cXGioK4_Ee-72egos7KMFg" name="cost">
@@ -163,7 +168,8 @@ pointless in this diagram</body>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_89E10K5sEe-stoZHHNVWcQ" name="delay" visibility="public">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_0KJWsLNFEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_BXUNcLGXEe-4ROfc_zS7lA" name="out" visibility="public" type="_W8r9AK5uEe-stoZHHNVWcQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_BXU0gLGXEe-4ROfc_zS7lA" name="in" visibility="public" type="_Oizg8K5uEe-stoZHHNVWcQ" aggregation="composite"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_kCCrMKhDEe-kyNuuq7T5lA" name="Index_table">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_vtgBsKvxEe-d8PAuPFafEw" name="capacity" visibility="public">
@@ -175,7 +181,8 @@ pointless in this diagram</body>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_6n_00K5sEe-stoZHHNVWcQ" name="delay" visibility="public">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_vbHYkLNBEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_QIWwMK5zEe-tzZS-GCH0Kw" name="out" visibility="public" type="_W8r9AK5uEe-stoZHHNVWcQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_QIXXQK5zEe-tzZS-GCH0Kw" name="in" visibility="public" type="_Oizg8K5uEe-stoZHHNVWcQ" aggregation="composite"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_WrgScKhEEe-kyNuuq7T5lA" name="Optical_Sensor"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Y1_0EKhEEe-kyNuuq7T5lA" name="Stopper"/>
@@ -242,14 +249,14 @@ pointless in this diagram</body>
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v7gecKhBEe-kyNuuq7T5lA" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v7gecahBEe-kyNuuq7T5lA" key="nature" value="UML_Nature"/>
           </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_v7gecqhBEe-kyNuuq7T5lA" name="i/o" type="_2vhlYKhAEe-kyNuuq7T5lA" aggregation="composite" association="_v7f3YKhBEe-kyNuuq7T5lA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_v7gecqhBEe-kyNuuq7T5lA" name="pickup_assembly" type="_2vhlYKhAEe-kyNuuq7T5lA" aggregation="composite" association="_v7f3YKhBEe-kyNuuq7T5lA"/>
           <ownedEnd xmi:type="uml:Property" xmi:id="_v7hFgKhBEe-kyNuuq7T5lA" name="xcps_machine" type="_iENz8KhAEe-kyNuuq7T5lA" association="_v7f3YKhBEe-kyNuuq7T5lA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_GqMc4KhCEe-kyNuuq7T5lA" memberEnd="_GqOSEKhCEe-kyNuuq7T5lA _GqO5IKhCEe-kyNuuq7T5lA">
           <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GqNrAKhCEe-kyNuuq7T5lA" source="org.eclipse.papyrus">
             <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GqNrAahCEe-kyNuuq7T5lA" key="nature" value="UML_Nature"/>
           </eAnnotations>
-          <ownedEnd xmi:type="uml:Property" xmi:id="_GqOSEKhCEe-kyNuuq7T5lA" name="manufacture" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite" association="_GqMc4KhCEe-kyNuuq7T5lA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_GqOSEKhCEe-kyNuuq7T5lA" name="logical_actions" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite" association="_GqMc4KhCEe-kyNuuq7T5lA"/>
           <ownedEnd xmi:type="uml:Property" xmi:id="_GqO5IKhCEe-kyNuuq7T5lA" name="xcps_machine" type="_iENz8KhAEe-kyNuuq7T5lA" association="_GqMc4KhCEe-kyNuuq7T5lA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Association" xmi:id="_af9pAK3KEe-62LrKKCAHKA" name="left arm" memberEnd="_agAsUK3KEe-62LrKKCAHKA _agAsU63KEe-62LrKKCAHKA">
@@ -321,17 +328,22 @@ pointless in this diagram</body>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_KHArEK5uEe-stoZHHNVWcQ" name="Flow_Types">
         <packagedElement xmi:type="uml:Class" xmi:id="_MI97wK5uEe-stoZHHNVWcQ" name="Token"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_Oizg8K5uEe-stoZHHNVWcQ" name="Token In">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ZGASkK5xEe-tzZS-GCH0Kw" name="In" type="_MI97wK5uEe-stoZHHNVWcQ"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_W8r9AK5uEe-stoZHHNVWcQ" name="Token Out">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_gKSNoK5xEe-tzZS-GCH0Kw" name="Out" type="_MI97wK5uEe-stoZHHNVWcQ"/>
+        </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_FbH40K5wEe-tzZS-GCH0Kw" name="Top">
           <generalization xmi:type="uml:Generalization" xmi:id="_IP2qQK5wEe-tzZS-GCH0Kw" general="_MI97wK5uEe-stoZHHNVWcQ"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_F9jQcK5wEe-tzZS-GCH0Kw" name="Bottom">
           <generalization xmi:type="uml:Generalization" xmi:id="_HZRAgK5wEe-tzZS-GCH0Kw" general="_MI97wK5uEe-stoZHHNVWcQ"/>
         </packagedElement>
-        <packagedElement xmi:type="uml:Class" xmi:id="_xNDFsLNAEe-ZoZe4AvCuiQ" name="Interface">
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_YPpXgLNBEe-ZoZe4AvCuiQ" name="flow" visibility="public" type="_MI97wK5uEe-stoZHHNVWcQ"/>
-        </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Class" xmi:id="_gJqtIK5yEe-tzZS-GCH0Kw" name="Type_Bag">
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_0sG2cK5yEe-tzZS-GCH0Kw" name="out" visibility="public" type="_W8r9AK5uEe-stoZHHNVWcQ" aggregation="composite"/>
+        <ownedAttribute xmi:type="uml:Port" xmi:id="_0sHdgK5yEe-tzZS-GCH0Kw" name="in" visibility="public" type="_Oizg8K5uEe-stoZHHNVWcQ" aggregation="composite"/>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_4ABeQK5yEe-tzZS-GCH0Kw" name="capacity" visibility="public">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
         </ownedAttribute>
@@ -341,7 +353,6 @@ pointless in this diagram</body>
         <ownedAttribute xmi:type="uml:Property" xmi:id="_4ACFUa5yEe-tzZS-GCH0Kw" name="delay" visibility="public">
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
         </ownedAttribute>
-        <ownedAttribute xmi:type="uml:Port" xmi:id="_gXlvALNBEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_7ma4UKg_Ee-kyNuuq7T5lA" name="Requirements">
@@ -439,25 +450,27 @@ pointless in this diagram</body>
   <Blocks:Block xmi:id="_LxBLgK3OEe-62LrKKCAHKA" base_Class="_Lw_WUK3OEe-62LrKKCAHKA"/>
   <Blocks:Block xmi:id="_NDticK3OEe-62LrKKCAHKA" base_Class="_NDrtQK3OEe-62LrKKCAHKA"/>
   <Blocks:Block xmi:id="_MJCNMK5uEe-stoZHHNVWcQ" base_Class="_MI97wK5uEe-stoZHHNVWcQ"/>
+  <Blocks:Block xmi:id="_Oi3LUK5uEe-stoZHHNVWcQ" base_Class="_Oizg8K5uEe-stoZHHNVWcQ"/>
+  <Blocks:Block xmi:id="_W8wOcK5uEe-stoZHHNVWcQ" base_Class="_W8r9AK5uEe-stoZHHNVWcQ"/>
   <Blocks:Block xmi:id="_FbMKQK5wEe-tzZS-GCH0Kw" base_Class="_FbH40K5wEe-tzZS-GCH0Kw"/>
   <Blocks:Block xmi:id="_F9lssK5wEe-tzZS-GCH0Kw" base_Class="_F9jQcK5wEe-tzZS-GCH0Kw"/>
+  <PortsAndFlows:FullPort xmi:id="_tx1d4K5wEe-tzZS-GCH0Kw" base_Port="_txv-UK5wEe-tzZS-GCH0Kw"/>
+  <PortsAndFlows:FlowProperty xmi:id="_ZGEkAK5xEe-tzZS-GCH0Kw" base_Property="_ZGASkK5xEe-tzZS-GCH0Kw" direction="in"/>
+  <PortsAndFlows:FlowProperty xmi:id="_gKWfEK5xEe-tzZS-GCH0Kw" base_Property="_gKSNoK5xEe-tzZS-GCH0Kw" direction="out"/>
+  <PortsAndFlows:FullPort xmi:id="_5G9GkK5xEe-tzZS-GCH0Kw" base_Port="_5G6DQK5xEe-tzZS-GCH0Kw"/>
+  <PortsAndFlows:FullPort xmi:id="_6VR64K5xEe-tzZS-GCH0Kw" base_Port="_6VQswK5xEe-tzZS-GCH0Kw"/>
   <Blocks:Block xmi:id="_gJvloK5yEe-tzZS-GCH0Kw" base_Class="_gJqtIK5yEe-tzZS-GCH0Kw"/>
-  <Blocks:Block xmi:id="_xNDswLNAEe-ZoZe4AvCuiQ" base_Class="_xNDFsLNAEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FlowProperty xmi:id="_YPsa0LNBEe-ZoZe4AvCuiQ" base_Property="_YPpXgLNBEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_gXu48LNBEe-ZoZe4AvCuiQ" base_Port="_gXlvALNBEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_vbH_oLNBEe-ZoZe4AvCuiQ" base_Port="_vbHYkLNBEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_1nWRULNBEe-ZoZe4AvCuiQ" base_Port="_1nVqQLNBEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_0KJ9wLNFEe-ZoZe4AvCuiQ" base_Port="_0KJWsLNFEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_01VowLNFEe-ZoZe4AvCuiQ" base_Port="_01VBsLNFEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_1hFUcLNFEe-ZoZe4AvCuiQ" base_Port="_1hEtYLNFEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_1-544bNFEe-ZoZe4AvCuiQ" base_Port="_1-544LNFEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_Je9_MbNGEe-ZoZe4AvCuiQ" base_Port="_Je9_MLNGEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_VRvCoLNGEe-ZoZe4AvCuiQ" base_Port="_VRubkLNGEe-ZoZe4AvCuiQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_e-I2gbNGEe-ZoZe4AvCuiQ" base_Element="_e-IPcLNGEe-ZoZe4AvCuiQ" propertyPath="_F8mWkLNEEe-ZoZe4AvCuiQ" base_ConnectorEnd="_e-IPcLNGEe-ZoZe4AvCuiQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_e-JdkLNGEe-ZoZe4AvCuiQ" base_Element="_e-I2gLNGEe-ZoZe4AvCuiQ" propertyPath="_P2lTcLNEEe-ZoZe4AvCuiQ" base_ConnectorEnd="_e-I2gLNGEe-ZoZe4AvCuiQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_fwNzsrNGEe-ZoZe4AvCuiQ" base_Element="_fwNzsLNGEe-ZoZe4AvCuiQ" propertyPath="_F8mWkLNEEe-ZoZe4AvCuiQ" base_ConnectorEnd="_fwNzsLNGEe-ZoZe4AvCuiQ"/>
-  <Blocks:NestedConnectorEnd xmi:id="_fwOawLNGEe-ZoZe4AvCuiQ" base_Element="_fwNzsbNGEe-ZoZe4AvCuiQ" propertyPath="_P2lTcLNEEe-ZoZe4AvCuiQ" base_ConnectorEnd="_fwNzsbNGEe-ZoZe4AvCuiQ"/>
-  <Blocks:BindingConnector xmi:id="_fwOawbNGEe-ZoZe4AvCuiQ" base_Connector="_fwMlkLNGEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_heZMwbNGEe-ZoZe4AvCuiQ" base_Port="_heZMwLNGEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_4FD3oLNGEe-ZoZe4AvCuiQ" base_Port="_4FDQkLNGEe-ZoZe4AvCuiQ"/>
+  <PortsAndFlows:FullPort xmi:id="_0sHdga5yEe-tzZS-GCH0Kw" base_Port="_0sG2cK5yEe-tzZS-GCH0Kw"/>
+  <PortsAndFlows:FullPort xmi:id="_0sIEkK5yEe-tzZS-GCH0Kw" base_Port="_0sHdgK5yEe-tzZS-GCH0Kw"/>
+  <PortsAndFlows:FullPort xmi:id="_QIXXQa5zEe-tzZS-GCH0Kw" base_Port="_QIWwMK5zEe-tzZS-GCH0Kw"/>
+  <PortsAndFlows:FullPort xmi:id="_QIX-UK5zEe-tzZS-GCH0Kw" base_Port="_QIXXQK5zEe-tzZS-GCH0Kw"/>
+  <PortsAndFlows:FullPort xmi:id="_dST84LGQEe-4ROfc_zS7lA" base_Port="_dSTV0LGQEe-4ROfc_zS7lA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_cVq5ALGREe-4ROfc_zS7lA" base_Element="_cVpD0LGREe-4ROfc_zS7lA" propertyPath="_agAsUK3KEe-62LrKKCAHKA" base_ConnectorEnd="_cVpD0LGREe-4ROfc_zS7lA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_cVrgELGREe-4ROfc_zS7lA" base_Element="_cVpq4LGREe-4ROfc_zS7lA" propertyPath="_beOoEq3KEe-62LrKKCAHKA" base_ConnectorEnd="_cVpq4LGREe-4ROfc_zS7lA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_c_hHQbGREe-4ROfc_zS7lA" base_Element="_c_ggMLGREe-4ROfc_zS7lA" propertyPath="_d7i_Eq3KEe-62LrKKCAHKA" base_ConnectorEnd="_c_ggMLGREe-4ROfc_zS7lA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_c_hHQrGREe-4ROfc_zS7lA" base_Element="_c_hHQLGREe-4ROfc_zS7lA" propertyPath="_beOoEq3KEe-62LrKKCAHKA" base_ConnectorEnd="_c_hHQLGREe-4ROfc_zS7lA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_uMOHAbGVEe-4ROfc_zS7lA" base_Element="_uMNf8bGVEe-4ROfc_zS7lA" propertyPath="_beOoEq3KEe-62LrKKCAHKA" base_ConnectorEnd="_uMNf8bGVEe-4ROfc_zS7lA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_u2RworGVEe-4ROfc_zS7lA" base_Element="_u2RwoLGVEe-4ROfc_zS7lA" propertyPath="_beOoEq3KEe-62LrKKCAHKA" base_ConnectorEnd="_u2RwoLGVEe-4ROfc_zS7lA"/>
+  <PortsAndFlows:FullPort xmi:id="_BXU0gbGXEe-4ROfc_zS7lA" base_Port="_BXUNcLGXEe-4ROfc_zS7lA"/>
+  <PortsAndFlows:FullPort xmi:id="_BXVbkLGXEe-4ROfc_zS7lA" base_Port="_BXU0gLGXEe-4ROfc_zS7lA"/>
 </xmi:XMI>
