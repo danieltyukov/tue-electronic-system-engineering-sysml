@@ -75,6 +75,18 @@ of the diagram :)</body>
 pointless in this diagram</body>
         </ownedComment>
         <packagedElement xmi:type="uml:Class" xmi:id="_iENz8KhAEe-kyNuuq7T5lA" name="xCPS" useCase="_oeKvcKjLEe-r95W76X3QKw _oeLWgKjLEe-r95W76X3QKw _oeLWgajLEe-r95W76X3QKw _zx2DIKjLEe-r95W76X3QKw _mSW4oK2AEe-B9aOkkxc7lg _tgTGAK2AEe-B9aOkkxc7lg">
+          <ownedComment xmi:type="uml:Comment" xmi:id="_f8vCkLYAEe-HxKnsdzlWOA">
+            <body>It is not necessary to show
+the internal structure of the modules
+in this diagram. The port names should
+make it clear already. </body>
+          </ownedComment>
+          <ownedComment xmi:type="uml:Comment" xmi:id="_vdKqkLYAEe-HxKnsdzlWOA">
+            <body>It should be noted that the port &quot;right_gantry&quot; for
+instance is NOT typed as a Gantry, but as an abstract
+interface. This port is connected to a Gantry type by
+another abstract interface.</body>
+          </ownedComment>
           <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mSW4oK2AEe-B9aOkkxc7lg" name="Cleaning and maintainance" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
           <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tgTGAK2AEe-B9aOkkxc7lg" name="Troubleshooting" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_F8mWkLNEEe-ZoZe4AvCuiQ" name="i/o" type="_2vhlYKhAEe-kyNuuq7T5lA" aggregation="composite"/>
@@ -102,6 +114,26 @@ pointless in this diagram</body>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_1-544LNFEe-ZoZe4AvCuiQ" name="left_gantry" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_VRubkLNGEe-ZoZe4AvCuiQ" name="right_gantry" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_heZMwLNGEe-ZoZe4AvCuiQ" name="load" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_IP1S8LYBEe-HxKnsdzlWOA" name="Connector7">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_IP2hELYBEe-HxKnsdzlWOA" role="_heZMwLNGEe-ZoZe4AvCuiQ"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_IP2hEbYBEe-HxKnsdzlWOA" role="_beOoEq3KEe-62LrKKCAHKA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_peeCELYBEe-HxKnsdzlWOA" name="Connector8">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_peeCEbYBEe-HxKnsdzlWOA" role="_beOoEq3KEe-62LrKKCAHKA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_peepILYBEe-HxKnsdzlWOA" role="_agAsUK3KEe-62LrKKCAHKA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_qWvt4LYBEe-HxKnsdzlWOA" name="Connector9">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_qWvt4bYBEe-HxKnsdzlWOA" role="_beOoEq3KEe-62LrKKCAHKA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_qWwU8LYBEe-HxKnsdzlWOA" role="_d7i_Eq3KEe-62LrKKCAHKA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_rBXYMLYBEe-HxKnsdzlWOA" name="Connector10">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_rBX_QLYBEe-HxKnsdzlWOA" role="_agAsUK3KEe-62LrKKCAHKA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_rBX_QbYBEe-HxKnsdzlWOA" role="_1-544LNFEe-ZoZe4AvCuiQ"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_rgwC4LYBEe-HxKnsdzlWOA" name="Connector11">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_rgxRALYBEe-HxKnsdzlWOA" role="_d7i_Eq3KEe-62LrKKCAHKA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_rgx4ELYBEe-HxKnsdzlWOA" role="_VRubkLNGEe-ZoZe4AvCuiQ"/>
+          </ownedConnector>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_CKHj8KhCEe-kyNuuq7T5lA" name="Manufacturing Module">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_GvG4Mq3LEe-62LrKKCAHKA" name="pick_place" type="_kikI4KhEEe-kyNuuq7T5lA" aggregation="composite" association="_GvFDAK3LEe-62LrKKCAHKA"/>
@@ -132,6 +164,13 @@ pointless in this diagram</body>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_1hEtYLNFEe-ZoZe4AvCuiQ" name="in_belt" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_Je9_MLNGEe-ZoZe4AvCuiQ" name="out_belt" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_i8JkkLYBEe-HxKnsdzlWOA" memberEnd="_i8LZwLYBEe-HxKnsdzlWOA _i8LZwbYBEe-HxKnsdzlWOA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i8KysLYBEe-HxKnsdzlWOA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i8KysbYBEe-HxKnsdzlWOA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_i8LZwLYBEe-HxKnsdzlWOA" name="loading_table" type="_8jJJ0KhAEe-kyNuuq7T5lA" association="_i8JkkLYBEe-HxKnsdzlWOA"/>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_i8LZwbYBEe-HxKnsdzlWOA" name="gantry_arm" type="_6E4-sKhAEe-kyNuuq7T5lA" association="_i8JkkLYBEe-HxKnsdzlWOA"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_rS6tQKhCEe-kyNuuq7T5lA" name="Components">
@@ -342,6 +381,13 @@ pointless in this diagram</body>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
         </ownedAttribute>
         <ownedAttribute xmi:type="uml:Port" xmi:id="_gXlvALNBEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_rwD8ILX_Ee-HxKnsdzlWOA" memberEnd="_rwFKQrX_Ee-HxKnsdzlWOA _rwGYYLX_Ee-HxKnsdzlWOA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_rwFKQLX_Ee-HxKnsdzlWOA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_rwFKQbX_Ee-HxKnsdzlWOA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_rwFKQrX_Ee-HxKnsdzlWOA" name="manufacturing module" type="_CKHj8KhCEe-kyNuuq7T5lA" association="_rwD8ILX_Ee-HxKnsdzlWOA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_rwGYYLX_Ee-HxKnsdzlWOA" name="i/o module" type="_2vhlYKhAEe-kyNuuq7T5lA" association="_rwD8ILX_Ee-HxKnsdzlWOA"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_7ma4UKg_Ee-kyNuuq7T5lA" name="Requirements">
