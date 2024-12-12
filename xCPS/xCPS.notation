@@ -1520,9 +1520,6 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_4HJb9KvrEe-d8PAuPFafEw" y="5"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_4HJb9avrEe-d8PAuPFafEw" type="Class_AttributeCompartment">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_haWaEK4_Ee-72egos7KMFg" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_haXBIK4_Ee-72egos7KMFg" key="visible" value="true"/>
-        </eAnnotations>
         <children xmi:type="notation:Shape" xmi:id="_kVU9cK4_Ee-72egos7KMFg" type="Property_ClassAttributeLabel">
           <element xmi:type="uml:Property" href="xCPS.uml#_cXGioK4_Ee-72egos7KMFg"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_kVU9ca4_Ee-72egos7KMFg"/>
@@ -1580,9 +1577,6 @@
         <layoutConstraint xmi:type="notation:Location" xmi:id="_-D3SAqvrEe-d8PAuPFafEw" y="5"/>
       </children>
       <children xmi:type="notation:BasicCompartment" xmi:id="_-D3SA6vrEe-d8PAuPFafEw" type="Class_AttributeCompartment">
-        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_haXBI64_Ee-72egos7KMFg" source="PapyrusCSSForceValue">
-          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_haXBJK4_Ee-72egos7KMFg" key="visible" value="true"/>
-        </eAnnotations>
         <children xmi:type="notation:Shape" xmi:id="_jJBiYK4_Ee-72egos7KMFg" type="Property_ClassAttributeLabel">
           <element xmi:type="uml:Property" href="xCPS.uml#_vtgBsKvxEe-d8PAuPFafEw"/>
           <layoutConstraint xmi:type="notation:Location" xmi:id="_jJBiYa4_Ee-72egos7KMFg"/>
@@ -3535,9 +3529,6 @@
             <layoutConstraint xmi:type="notation:Location" xmi:id="_SPiH0rNEEe-ZoZe4AvCuiQ" y="15"/>
           </children>
           <children xmi:type="notation:BasicCompartment" xmi:id="_SPiH07NEEe-ZoZe4AvCuiQ" visible="false" type="Property_StructureCompartment">
-            <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wBMZwLNEEe-ZoZe4AvCuiQ" source="PapyrusCSSForceValue">
-              <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wBMZwbNEEe-ZoZe4AvCuiQ" key="visible" value="true"/>
-            </eAnnotations>
             <children xmi:type="notation:Shape" xmi:id="_TQm_sLGWEe-4ROfc_zS7lA" type="Property_Shape">
               <children xmi:type="notation:DecorationNode" xmi:id="_TQm_srGWEe-4ROfc_zS7lA" type="Property_NameLabel"/>
               <children xmi:type="notation:DecorationNode" xmi:id="_TQm_s7GWEe-4ROfc_zS7lA" type="Property_FloatingNameLabel">
@@ -3725,7 +3716,7 @@
       <owner xmi:type="uml:Class" href="xCPS.uml#_iENz8KhAEe-kyNuuq7T5lA"/>
     </styles>
     <element xmi:type="uml:Class" href="xCPS.uml#_iENz8KhAEe-kyNuuq7T5lA"/>
-    <edges xmi:type="notation:Connector" xmi:id="_e-QyULNGEe-ZoZe4AvCuiQ" type="Connector_Edge" source="_VuYiYLNGEe-ZoZe4AvCuiQ" target="_5_8FYLNFEe-ZoZe4AvCuiQ">
+    <edges xmi:type="notation:Connector" xmi:id="_e-QyULNGEe-ZoZe4AvCuiQ" type="Connector_Edge" source="_VuYiYLNGEe-ZoZe4AvCuiQ">
       <children xmi:type="notation:DecorationNode" xmi:id="_e-RZYLNGEe-ZoZe4AvCuiQ" type="Connector_StereotypeLabel">
         <styles xmi:type="notation:BooleanValueStyle" xmi:id="_QzekcLYAEe-HxKnsdzlWOA" name="IS_UPDATED_POSITION" booleanValue="true"/>
         <layoutConstraint xmi:type="notation:Location" xmi:id="_e-RZYbNGEe-ZoZe4AvCuiQ" x="-1" y="58"/>
@@ -3819,7 +3810,7 @@
       <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8MgyZLX9Ee-HxKnsdzlWOA"/>
       <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_8MgyZbX9Ee-HxKnsdzlWOA"/>
     </edges>
-    <edges xmi:type="notation:Connector" xmi:id="_8MouNLX9Ee-HxKnsdzlWOA" type="StereotypeCommentLink" source="_5_8FYLNFEe-ZoZe4AvCuiQ" target="_8MouMLX9Ee-HxKnsdzlWOA">
+    <edges xmi:type="notation:Connector" xmi:id="_8MouNLX9Ee-HxKnsdzlWOA" type="StereotypeCommentLink" target="_8MouMLX9Ee-HxKnsdzlWOA">
       <styles xmi:type="notation:FontStyle" xmi:id="_8MouNbX9Ee-HxKnsdzlWOA"/>
       <styles xmi:type="notation:EObjectValueStyle" xmi:id="_8MpVQrX9Ee-HxKnsdzlWOA" name="BASE_ELEMENT">
         <eObjectValue xmi:type="uml:Port" href="xCPS.uml#_1hEtYLNFEe-ZoZe4AvCuiQ"/>
@@ -4150,14 +4141,6 @@
       <children xmi:type="notation:Compartment" xmi:id="_ore-krYEEe-HxKnsdzlWOA" type="Flow Ports"/>
       <children xmi:type="notation:Compartment" xmi:id="_ore-k7YEEe-HxKnsdzlWOA" type="constraints">
         <children xmi:type="notation:Shape" xmi:id="_fPXooLilEe-7qdRIS-E9tA" type="Constraint_Label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fPXoorilEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fPXoo7ilEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fPXopLilEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fPXopbilEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fPXoprilEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fPXop7ilEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_fPXoqLilEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Constraint" href="xCPS.uml#_fPNQkLilEe-7qdRIS-E9tA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_fPXoobilEe-7qdRIS-E9tA"/>
         </children>
@@ -4169,50 +4152,18 @@
       <children xmi:type="notation:Compartment" xmi:id="_ore-mLYEEe-HxKnsdzlWOA" type="Flow Properties"/>
       <children xmi:type="notation:Compartment" xmi:id="_ore-mbYEEe-HxKnsdzlWOA" type="Parameters">
         <children xmi:type="notation:Shape" xmi:id="_3BNG8LYEEe-HxKnsdzlWOA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_3BNG8rYEEe-HxKnsdzlWOA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3BNG87YEEe-HxKnsdzlWOA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3BNuALYEEe-HxKnsdzlWOA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3BNuAbYEEe-HxKnsdzlWOA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3BNuArYEEe-HxKnsdzlWOA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3BNuA7YEEe-HxKnsdzlWOA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_3BNuBLYEEe-HxKnsdzlWOA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_3BHAULYEEe-HxKnsdzlWOA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3BNG8bYEEe-HxKnsdzlWOA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_7agpgLYEEe-HxKnsdzlWOA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7ahQkLYEEe-HxKnsdzlWOA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ahQkbYEEe-HxKnsdzlWOA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ahQkrYEEe-HxKnsdzlWOA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ahQk7YEEe-HxKnsdzlWOA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ahQlLYEEe-HxKnsdzlWOA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ahQlbYEEe-HxKnsdzlWOA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7ahQlrYEEe-HxKnsdzlWOA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_7aeNQLYEEe-HxKnsdzlWOA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7agpgbYEEe-HxKnsdzlWOA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_93S1ALYEEe-HxKnsdzlWOA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_93S1ArYEEe-HxKnsdzlWOA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93S1A7YEEe-HxKnsdzlWOA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93S1BLYEEe-HxKnsdzlWOA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93S1BbYEEe-HxKnsdzlWOA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93S1BrYEEe-HxKnsdzlWOA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93S1B7YEEe-HxKnsdzlWOA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_93S1CLYEEe-HxKnsdzlWOA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_93MuYLYEEe-HxKnsdzlWOA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_93S1AbYEEe-HxKnsdzlWOA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_e8C-oLiSEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_e8DlsLiSEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e8DlsbiSEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e8DlsriSEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e8Dls7iSEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e8DltLiSEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e8DltbiSEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_e8DltriSEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_e79fELiSEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_e8C-obiSEe-WkNwmREx5uA"/>
         </children>
@@ -4257,14 +4208,6 @@
       <children xmi:type="notation:Compartment" xmi:id="_BVXeabYFEe-HxKnsdzlWOA" type="Flow Ports"/>
       <children xmi:type="notation:Compartment" xmi:id="_BVXearYFEe-HxKnsdzlWOA" type="constraints">
         <children xmi:type="notation:Shape" xmi:id="_5poGcLiQEe-WkNwmREx5uA" type="Constraint_Label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5poGcriQEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5poGc7iQEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5poGdLiQEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5poGdbiQEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5poGdriQEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5poGd7iQEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5poGeLiQEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Constraint" href="xCPS.uml#_5ph_0LiQEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5poGcbiQEe-WkNwmREx5uA"/>
         </children>
@@ -4276,50 +4219,18 @@
       <children xmi:type="notation:Compartment" xmi:id="_BVYFdLYFEe-HxKnsdzlWOA" type="Flow Properties"/>
       <children xmi:type="notation:Compartment" xmi:id="_BVYFdbYFEe-HxKnsdzlWOA" type="Parameters">
         <children xmi:type="notation:Shape" xmi:id="_GgUgULYFEe-HxKnsdzlWOA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_GgUgUrYFEe-HxKnsdzlWOA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GgUgU7YFEe-HxKnsdzlWOA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GgUgVLYFEe-HxKnsdzlWOA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GgUgVbYFEe-HxKnsdzlWOA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GgUgVrYFEe-HxKnsdzlWOA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GgUgV7YFEe-HxKnsdzlWOA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_GgUgWLYFEe-HxKnsdzlWOA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_GgQO4LYFEe-HxKnsdzlWOA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_GgUgUbYFEe-HxKnsdzlWOA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_xBUz4LiQEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xBVa8LiQEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWCALiQEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWCAbiQEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWCAriQEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWCA7iQEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWCBLiQEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWCBbiQEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_oCqPwLiQEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xBUz4biQEe-WkNwmREx5uA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_xBWCBriQEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xBWpELiQEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWpEbiQEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWpEriQEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWpE7iQEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWpFLiQEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWpFbiQEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xBWpFriQEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_uOVH0LiQEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xBWCB7iQEe-WkNwmREx5uA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_FxfasLiSEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_FxfasriSEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FxgBwLiSEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FxgBwbiSEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FxgBwriSEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FxgBw7iSEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FxgBxLiSEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_FxgBxbiSEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_FEt0QLiSEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_FxfasbiSEe-WkNwmREx5uA"/>
         </children>
@@ -4364,14 +4275,6 @@
       <children xmi:type="notation:Compartment" xmi:id="_alTn6biSEe-WkNwmREx5uA" type="Flow Ports"/>
       <children xmi:type="notation:Compartment" xmi:id="_alTn6riSEe-WkNwmREx5uA" type="constraints">
         <children xmi:type="notation:Shape" xmi:id="_zPd0gLiSEe-WkNwmREx5uA" type="Constraint_Label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_zPd0griSEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zPd0g7iSEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zPd0hLiSEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zPd0hbiSEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zPd0hriSEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zPd0h7iSEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_zPd0iLiSEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Constraint" href="xCPS.uml#_zPY8ALiSEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_zPd0gbiSEe-WkNwmREx5uA"/>
         </children>
@@ -4383,50 +4286,18 @@
       <children xmi:type="notation:Compartment" xmi:id="_alUO9LiSEe-WkNwmREx5uA" type="Flow Properties"/>
       <children xmi:type="notation:Compartment" xmi:id="_alUO9biSEe-WkNwmREx5uA" type="Parameters">
         <children xmi:type="notation:Shape" xmi:id="_wDavQLiSEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wDavQriSEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wDavQ7iSEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wDavRLiSEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wDavRbiSEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wDavRriSEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wDavR7iSEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wDavSLiSEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_wDXE4LiSEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wDavQbiSEe-WkNwmREx5uA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_ydSwsLiSEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ydSwsriSEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ydTXwLiSEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ydTXwbiSEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ydTXwriSEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ydTXw7iSEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ydTXxLiSEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ydTXxbiSEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_upr8MLiSEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ydSwsbiSEe-WkNwmREx5uA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_9zzV8LiSEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9zzV8riSEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9zzV87iSEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9zzV9LiSEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9zzV9biSEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9zzV9riSEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9zzV97iSEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9zzV-LiSEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_9zudcLiSEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9zzV8biSEe-WkNwmREx5uA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_JkMa0LiTEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JkNB4LiTEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JkNB4biTEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JkNB4riTEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JkNB47iTEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JkNB5LiTEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JkNB5biTEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JkNB5riTEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_I1-p8LiTEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JkMa0biTEe-WkNwmREx5uA"/>
         </children>
@@ -4471,14 +4342,6 @@
       <children xmi:type="notation:Compartment" xmi:id="_dSfKYLiTEe-WkNwmREx5uA" type="Flow Ports"/>
       <children xmi:type="notation:Compartment" xmi:id="_dSfKYbiTEe-WkNwmREx5uA" type="constraints">
         <children xmi:type="notation:Shape" xmi:id="_7gua4LikEe-7qdRIS-E9tA" type="Constraint_Label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7gua4rikEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7gua47ikEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7gua5LikEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7gua5bikEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7gua5rikEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7gua57ikEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7gua6LikEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Constraint" href="xCPS.uml#_7giNoLikEe-7qdRIS-E9tA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7gua4bikEe-7qdRIS-E9tA"/>
         </children>
@@ -4490,62 +4353,22 @@
       <children xmi:type="notation:Compartment" xmi:id="_dSfKZriTEe-WkNwmREx5uA" type="Flow Properties"/>
       <children xmi:type="notation:Compartment" xmi:id="_dSfKZ7iTEe-WkNwmREx5uA" type="Parameters">
         <children xmi:type="notation:Shape" xmi:id="_6LzPULikEe-7qdRIS-E9tA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6Lz2YLikEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L0dcLikEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L0dcbikEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L0dcrikEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L0dc7ikEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L0ddLikEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L0ddbikEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_0Y3AULikEe-7qdRIS-E9tA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6LzPUbikEe-7qdRIS-E9tA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_6L0ddrikEe-7qdRIS-E9tA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6L0deLikEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L0debikEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L0derikEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L0de7ikEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1EgLikEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1EgbikEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1EgrikEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_1Pbb8LikEe-7qdRIS-E9tA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6L0dd7ikEe-7qdRIS-E9tA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_6L1Eg7ikEe-7qdRIS-E9tA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6L1EhbikEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1EhrikEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1Eh7ikEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1EiLikEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1EibikEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1EirikEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1Ei7ikEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_4bUJILikEe-7qdRIS-E9tA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6L1EhLikEe-7qdRIS-E9tA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_6L1EjLikEe-7qdRIS-E9tA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6L1EjrikEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1Ej7ikEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1EkLikEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1EkbikEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1EkrikEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1Ek7ikEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6L1ElLikEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_4bUwMLikEe-7qdRIS-E9tA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6L1EjbikEe-7qdRIS-E9tA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_AhhbQLilEe-7qdRIS-E9tA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_AhiCULilEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AhiCUbilEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AhiCUrilEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AhiCU7ilEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AhiCVLilEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AhiCVbilEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_AhiCVrilEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#__47xQLikEe-7qdRIS-E9tA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_AhhbQbilEe-7qdRIS-E9tA"/>
         </children>
@@ -4590,14 +4413,6 @@
       <children xmi:type="notation:Compartment" xmi:id="_nx8L2biTEe-WkNwmREx5uA" type="Flow Ports"/>
       <children xmi:type="notation:Compartment" xmi:id="_nx8y4LiTEe-WkNwmREx5uA" type="constraints">
         <children xmi:type="notation:Shape" xmi:id="_mwReALiUEe-WkNwmREx5uA" type="Constraint_Label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_mwReAriUEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mwReA7iUEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mwReBLiUEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mwReBbiUEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mwReBriUEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mwReB7iUEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_mwReCLiUEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Constraint" href="xCPS.uml#_mwI7ILiUEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_mwReAbiUEe-WkNwmREx5uA"/>
         </children>
@@ -4609,62 +4424,22 @@
       <children xmi:type="notation:Compartment" xmi:id="_nx8y5biTEe-WkNwmREx5uA" type="Flow Properties"/>
       <children xmi:type="notation:Compartment" xmi:id="_nx8y5riTEe-WkNwmREx5uA" type="Parameters">
         <children xmi:type="notation:Shape" xmi:id="_lWHNILiUEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lWH0MLiUEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWH0MbiUEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWH0MriUEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWH0M7iUEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWH0NLiUEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWH0NbiUEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWH0NriUEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_cBEwYLiUEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lWHNIbiUEe-WkNwmREx5uA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_lWIbQLiUEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lWIbQriUEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWIbQ7iUEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWIbRLiUEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWIbRbiUEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWIbRriUEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWIbR7iUEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWIbSLiUEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_c_ijwLiUEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lWIbQbiUEe-WkNwmREx5uA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_lWIbSbiUEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lWJCULiUEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCUbiUEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCUriUEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCU7iUEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCVLiUEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCVbiUEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCVriUEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_fWzWELiUEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lWIbSriUEe-WkNwmREx5uA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_lWJCV7iUEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lWJCWbiUEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCWriUEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCW7iUEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCXLiUEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCXbiUEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCXriUEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJCX7iUEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_gqtN8LiUEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lWJCWLiUEe-WkNwmREx5uA"/>
         </children>
         <children xmi:type="notation:Shape" xmi:id="_lWJCYLiUEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lWJpYLiUEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJpYbiUEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJpYriUEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJpY7iUEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJpZLiUEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJpZbiUEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lWJpZriUEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_i-CigLiUEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lWJCYbiUEe-WkNwmREx5uA"/>
         </children>
@@ -4709,14 +4484,6 @@
       <children xmi:type="notation:Compartment" xmi:id="_sMdPWbiTEe-WkNwmREx5uA" type="Flow Ports"/>
       <children xmi:type="notation:Compartment" xmi:id="_sMdPWriTEe-WkNwmREx5uA" type="constraints">
         <children xmi:type="notation:Shape" xmi:id="_13nGALiTEe-WkNwmREx5uA" type="Constraint_Label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_13nGAriTEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_13nGA7iTEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_13nGBLiTEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_13nGBbiTEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_13nGBriTEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_13nGB7iTEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_13nGCLiTEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Constraint" href="xCPS.uml#_13gYULiTEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_13nGAbiTEe-WkNwmREx5uA"/>
         </children>
@@ -4728,14 +4495,6 @@
       <children xmi:type="notation:Compartment" xmi:id="_sMdPX7iTEe-WkNwmREx5uA" type="Flow Properties"/>
       <children xmi:type="notation:Compartment" xmi:id="_sMd2YLiTEe-WkNwmREx5uA" type="Parameters">
         <children xmi:type="notation:Shape" xmi:id="_xKnLYLiTEe-WkNwmREx5uA" type="SysML::ConstraintBlock::Parameter_label" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_xKnycLiTEe-WkNwmREx5uA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xKnycbiTEe-WkNwmREx5uA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xKnycriTEe-WkNwmREx5uA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xKnyc7iTEe-WkNwmREx5uA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xKnydLiTEe-WkNwmREx5uA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xKnydbiTEe-WkNwmREx5uA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_xKnydriTEe-WkNwmREx5uA" key="fillColor" value="true"/>
-          </eAnnotations>
           <element xmi:type="uml:Property" href="xCPS.uml#_xKf2oLiTEe-WkNwmREx5uA"/>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_xKnLYbiTEe-WkNwmREx5uA"/>
         </children>
@@ -5006,14 +4765,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_UNqj0LinEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_UNsZALinEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_UNsZArinEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UNsZA7inEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UNsZBLinEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UNsZBbinEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UNsZBrinEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UNsZB7inEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_UNsZCLinEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_UNsZAbinEe-7qdRIS-E9tA" x="100" y="4" width="161" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_cBEwYLiUEe-WkNwmREx5uA"/>
@@ -5021,14 +4772,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_WGGsILinEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_WGJvcLinEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_WGJvcrinEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WGJvc7inEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WGJvdLinEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WGJvdbinEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WGJvdrinEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WGJvd7inEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_WGJveLinEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WGJvcbinEe-7qdRIS-E9tA" x="73" y="8" width="108" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_c_ijwLiUEe-WkNwmREx5uA"/>
@@ -5036,14 +4779,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_ZZhksLinEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_ZZkA8LinEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ZZkA8rinEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZkA87inEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZkoALinEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZkoAbinEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZkoArinEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZkoA7inEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ZZkoBLinEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZZkA8binEe-7qdRIS-E9tA" x="75" width="110" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_fWzWELiUEe-WkNwmREx5uA"/>
@@ -5051,14 +4786,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_kCOBsLinEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_kCRFALinEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_kCRFArinEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kCRFA7inEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kCRFBLinEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kCRFBbinEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kCRFBrinEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kCRFB7inEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_kCRFCLinEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kCRFAbinEe-7qdRIS-E9tA" x="72" y="-5" width="104" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_gqtN8LiUEe-WkNwmREx5uA"/>
@@ -5066,14 +4793,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_n_S7QLinEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_n_V-kLinEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_n_V-krinEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n_V-k7inEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n_V-lLinEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n_V-lbinEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n_V-lrinEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n_V-l7inEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_n_V-mLinEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_n_V-kbinEe-7qdRIS-E9tA" x="79" y="-7" width="119" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_i-CigLiUEe-WkNwmREx5uA"/>
@@ -5098,14 +4817,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_JV1FULisEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_JV4IoLisEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JV4vsLisEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JV4vsbisEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JV4vsrisEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JV4vs7isEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JV4vtLisEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JV4vtbisEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JV4vtrisEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JV4IobisEe-7qdRIS-E9tA" x="53" y="-3" width="77" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_0Y3AULikEe-7qdRIS-E9tA"/>
@@ -5113,14 +4824,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_LTzN4LisEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_LT3fULisEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_LT3fUrisEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LT3fU7isEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LT3fVLisEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LT3fVbisEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LT3fVrisEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LT3fV7isEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_LT3fWLisEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_LT3fUbisEe-7qdRIS-E9tA" x="12" y="20" width="90" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_1Pbb8LikEe-7qdRIS-E9tA"/>
@@ -5128,14 +4831,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_PDxfkLisEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_PD2YELisEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_PD2YErisEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PD2YE7isEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PD2YFLisEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PD2YFbisEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PD2YFrisEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PD2YF7isEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_PD2_ILisEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_PD2YEbisEe-7qdRIS-E9tA" x="115" y="-3" width="161" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_4bUJILikEe-7qdRIS-E9tA"/>
@@ -5143,14 +4838,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_cE9d8LisEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_cFELoLisEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_cFELorisEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cFEysLisEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cFEysbisEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cFEysrisEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cFEys7isEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cFEytLisEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_cFEytbisEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cFELobisEe-7qdRIS-E9tA" x="74" y="7" width="108" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_4bUwMLikEe-7qdRIS-E9tA"/>
@@ -5158,14 +4845,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_gNn8cLisEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_gNqYsLisEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_gNq_wLisEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gNq_wbisEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gNq_wrisEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gNq_w7isEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gNq_xLisEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gNq_xbisEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_gNq_xrisEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_gNqYsbisEe-7qdRIS-E9tA" x="94" y="-3" width="119" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#__47xQLikEe-7qdRIS-E9tA"/>
@@ -5190,14 +4869,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_9nfg0LipEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_9njLMLipEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_9njLMripEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9njLM7ipEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9njLNLipEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9njLNbipEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9njLNripEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9njyQLipEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_9njyQbipEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9njLMbipEe-7qdRIS-E9tA" x="95" y="-3" width="161" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_xKf2oLiTEe-WkNwmREx5uA"/>
@@ -5205,14 +4876,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_CfubELiqEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_CfysgLiqEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CfysgriqEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Cfysg7iqEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CfyshLiqEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CfyshbiqEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CfyshriqEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_Cfysh7iqEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CfysiLiqEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_CfysgbiqEe-7qdRIS-E9tA" x="-80" y="13" width="161" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_xKf2oLiTEe-WkNwmREx5uA"/>
@@ -5245,14 +4908,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_i7uzYLiqEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_i7zE0LiqEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_i7zE0riqEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i7zE07iqEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i7zE1LiqEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i7zE1biqEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i7zE1riqEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i7zE17iqEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_i7zE2LiqEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_i7zE0biqEe-7qdRIS-E9tA" x="77" y="-12" width="114" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_GgQO4LYFEe-HxKnsdzlWOA"/>
@@ -5260,14 +4915,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_lsLhwLiqEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_lsPzMLiqEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_lsQaQLiqEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lsQaQbiqEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lsQaQriqEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lsQaQ7iqEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lsQaRLiqEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lsQaRbiqEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_lsQaRriqEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lsPzMbiqEe-7qdRIS-E9tA" x="67" y="-13" width="99" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_oCqPwLiQEe-WkNwmREx5uA"/>
@@ -5275,14 +4922,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_oKWNULiqEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_oKbF0LiqEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_oKbF0riqEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oKbF07iqEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oKbF1LiqEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oKbF1biqEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oKbF1riqEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oKbF17iqEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_oKbF2LiqEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_oKbF0biqEe-7qdRIS-E9tA" x="67" y="-3" width="105" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_uOVH0LiQEe-WkNwmREx5uA"/>
@@ -5290,14 +4929,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_qtSEILiqEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_qtWVkLiqEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_qtWVkriqEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qtWVk7iqEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qtWVlLiqEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qtWVlbiqEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qtWVlriqEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qtWVl7iqEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_qtW8oLiqEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_qtWVkbiqEe-7qdRIS-E9tA" x="66" y="-5" width="77" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_FEt0QLiSEe-WkNwmREx5uA"/>
@@ -5322,14 +4953,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_tszT0LirEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_ts3lQLirEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ts3lQrirEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ts3lQ7irEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ts3lRLirEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ts3lRbirEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ts3lRrirEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ts3lR7irEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ts3lSLirEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ts3lQbirEe-7qdRIS-E9tA" x="53" y="-3" width="77" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_upr8MLiSEe-WkNwmREx5uA"/>
@@ -5337,14 +4960,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_v1AWcLirEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_v1En4LirEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v1En4rirEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1En47irEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1En5LirEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1FO8LirEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1FO8birEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1FO8rirEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v1FO87irEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v1En4birEe-7qdRIS-E9tA" x="69" y="-3" width="108" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_I1-p8LiTEe-WkNwmREx5uA"/>
@@ -5352,14 +4967,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_yUtTELirEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_yUxkgLirEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_yUxkgrirEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yUxkg7irEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yUxkhLirEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yUxkhbirEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yUxkhrirEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yUxkh7irEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_yUxkiLirEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_yUxkgbirEe-7qdRIS-E9tA" x="90" y="-3" width="111" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_wDXE4LiSEe-WkNwmREx5uA"/>
@@ -5367,14 +4974,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_DXDZwLisEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_DXHrMLisEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_DXHrMrisEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DXHrM7isEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DXHrNLisEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DXHrNbisEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DXHrNrisEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DXHrN7isEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_DXHrOLisEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_DXHrMbisEe-7qdRIS-E9tA" x="64" width="90" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_9zudcLiSEe-WkNwmREx5uA"/>
@@ -5399,14 +4998,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_sKAO4LisEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_sKFucLisEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sKFucrisEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sKFuc7isEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sKFudLisEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sKFudbisEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sKFudrisEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sKFud7isEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sKFueLisEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sKFucbisEe-7qdRIS-E9tA" x="60" y="-3" width="90" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_3BHAULYEEe-HxKnsdzlWOA"/>
@@ -5414,14 +5005,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_tp1p8LisEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_tp7JgLisEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_tp7JgrisEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tp7Jg7isEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tp7JhLisEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tp7JhbisEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tp7JhrisEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tp7Jh7isEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_tp7JiLisEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_tp7JgbisEe-7qdRIS-E9tA" x="79" y="5" width="119" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_7aeNQLYEEe-HxKnsdzlWOA"/>
@@ -5429,14 +5012,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_wuu-ULisEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_wu0d4LisEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_wu0d4risEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wu0d47isEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wu0d5LisEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wu0d5bisEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wu0d5risEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wu0d57isEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_wu0d6LisEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wu0d4bisEe-7qdRIS-E9tA" x="73" y="-3" width="77" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_93MuYLYEEe-HxKnsdzlWOA"/>
@@ -5444,14 +5019,6 @@
           </children>
           <children xmi:type="notation:Shape" xmi:id="_7HGgULisEe-7qdRIS-E9tA" type="Parameter_BorderItem">
             <children xmi:type="notation:Shape" xmi:id="_7HN1ELisEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-              <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7HN1ErisEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7HN1E7isEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7HN1FLisEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7HN1FbisEe-7qdRIS-E9tA" key="bold" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7HN1FrisEe-7qdRIS-E9tA" key="italic" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7HN1F7isEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-                <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7HN1GLisEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-              </eAnnotations>
               <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7HN1EbisEe-7qdRIS-E9tA" x="68" y="5" width="80" height="16"/>
             </children>
             <element xmi:type="uml:Property" href="xCPS.uml#_e79fELiSEe-WkNwmREx5uA"/>
@@ -5582,14 +5149,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_sd70ULioEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_sd9pgLioEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_sd9pgrioEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sd9pg7ioEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sd9phLioEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sd9phbioEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sd9phrioEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sd9ph7ioEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_sd9piLioEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_sd9pgbioEe-7qdRIS-E9tA" x="-56" y="-9" width="90" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_PdLFwLimEe-7qdRIS-E9tA"/>
@@ -5597,14 +5156,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_v-WAALioEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_v-X1MLioEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_v-YcQLioEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v-YcQbioEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v-YcQrioEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v-YcQ7ioEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v-YcRLioEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v-YcRbioEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_v-YcRrioEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_v-X1MbioEe-7qdRIS-E9tA" x="-62" y="-7" width="119" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_PdLFwbimEe-7qdRIS-E9tA"/>
@@ -5612,14 +5163,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_5Ut5gLioEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_5UwVwLioEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_5Uw80LioEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Uw80bioEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Uw80rioEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Uw807ioEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Uw81LioEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Uw81bioEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_5Uw81rioEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_5UwVwbioEe-7qdRIS-E9tA" x="-43" y="-3" width="77" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_PdLs0LimEe-7qdRIS-E9tA"/>
@@ -5627,14 +5170,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_6z9esLioEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_6z_68LioEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6z_68rioEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6z_687ioEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6z_69LioEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6z_69bioEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6z_69rioEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6z_697ioEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6z_6-LioEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6z_68bioEe-7qdRIS-E9tA" x="-41" y="-9" width="80" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_PdLs0bimEe-7qdRIS-E9tA"/>
@@ -5642,14 +5177,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_-i2LQLioEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_-i3ZYLioEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_-i4AcLioEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-i4AcbioEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-i4AcrioEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-i4Ac7ioEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-i4AdLioEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-i4AdbioEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_-i4AdrioEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-i3ZYbioEe-7qdRIS-E9tA" x="69" y="-6" width="99" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_SGwsQLioEe-7qdRIS-E9tA"/>
@@ -5657,14 +5184,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_ABlaILipEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_ABnPULipEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_ABnPUripEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ABnPU7ipEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ABnPVLipEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ABnPVbipEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ABnPVripEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ABnPV7ipEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_ABnPWLipEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ABnPUbipEe-7qdRIS-E9tA" x="72" y="-12" width="104" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_SGxTULioEe-7qdRIS-E9tA"/>
@@ -5672,14 +5191,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_EPng0LipEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_EPp9ELipEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_EPp9EripEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EPqkILipEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EPqkIbipEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EPqkIripEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EPqkI7ipEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EPqkJLipEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_EPqkJbipEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EPp9EbipEe-7qdRIS-E9tA" x="75" y="-8" width="110" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_SGxTUbioEe-7qdRIS-E9tA"/>
@@ -5687,14 +5198,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_HKKmYLipEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_HKMbkLipEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_HKMbkripEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKMbk7ipEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKMblLipEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKMblbipEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKMblripEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKMbl7ipEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_HKMbmLipEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_HKMbkbipEe-7qdRIS-E9tA" x="72" y="-9" width="105" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_SGxTUrioEe-7qdRIS-E9tA"/>
@@ -5702,14 +5205,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_JDWVkLipEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_JDYKwLipEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_JDYKwripEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDYKw7ipEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDYKxLipEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDYKxbipEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDYKxripEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDYx0LipEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_JDYx0bipEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_JDYKwbipEe-7qdRIS-E9tA" x="77" y="-10" width="114" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_Tk1z0LioEe-7qdRIS-E9tA"/>
@@ -5717,14 +5212,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_KoNakLipEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_KoQd4LipEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_KoQd4ripEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KoQd47ipEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KoQd5LipEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KoQd5bipEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KoQd5ripEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KoQd57ipEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_KoQd6LipEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_KoQd4bipEe-7qdRIS-E9tA" x="79" y="-11" width="119" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_Tk2a4LioEe-7qdRIS-E9tA"/>
@@ -5732,14 +5219,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_MIHHELipEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_MII8QLipEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_MII8QripEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MII8Q7ipEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MII8RLipEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MII8RbipEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MII8RripEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MII8R7ipEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_MII8SLipEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MII8QbipEe-7qdRIS-E9tA" x="100" y="-13" width="161" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_VAeEULioEe-7qdRIS-E9tA"/>
@@ -5747,14 +5226,6 @@
       </children>
       <children xmi:type="notation:Shape" xmi:id="_6KtmALirEe-7qdRIS-E9tA" type="Parameter_BorderItem">
         <children xmi:type="notation:Shape" xmi:id="_6KvbMLirEe-7qdRIS-E9tA" type="ParameterLabel" fontName="Cantarell">
-          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_6KvbMrirEe-7qdRIS-E9tA" source="PapyrusCSSForceValue">
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6KvbM7irEe-7qdRIS-E9tA" key="lineColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6KvbNLirEe-7qdRIS-E9tA" key="fontHeight" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6KvbNbirEe-7qdRIS-E9tA" key="bold" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6KvbNrirEe-7qdRIS-E9tA" key="italic" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6KvbN7irEe-7qdRIS-E9tA" key="fontColor" value="true"/>
-            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_6KvbOLirEe-7qdRIS-E9tA" key="fillColor" value="true"/>
-          </eAnnotations>
           <layoutConstraint xmi:type="notation:Bounds" xmi:id="_6KvbMbirEe-7qdRIS-E9tA" x="75" width="111" height="16"/>
         </children>
         <element xmi:type="uml:Property" href="xCPS.uml#_EmTQkLirEe-7qdRIS-E9tA"/>

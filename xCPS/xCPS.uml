@@ -102,7 +102,7 @@ another abstract interface.</body>
           </ownedComment>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_F8mWkLNEEe-ZoZe4AvCuiQ" name="i/o" type="_2vhlYKhAEe-kyNuuq7T5lA" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_P2lTcLNEEe-ZoZe4AvCuiQ" name="manufacture" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_4FDQkLNGEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_4FDQkLNGEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_PdLFwLimEe-7qdRIS-E9tA" name="volume">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
@@ -390,9 +390,9 @@ another abstract interface.</body>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_d7jmIK3KEe-62LrKKCAHKA"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_d7jmIa3KEe-62LrKKCAHKA" value="1"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_1-544LNFEe-ZoZe4AvCuiQ" name="left_gantry" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_VRubkLNGEe-ZoZe4AvCuiQ" name="right_gantry" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_heZMwLNGEe-ZoZe4AvCuiQ" name="load" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_1-544LNFEe-ZoZe4AvCuiQ" name="left_gantry" visibility="public" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_VRubkLNGEe-ZoZe4AvCuiQ" name="right_gantry" visibility="public" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_heZMwLNGEe-ZoZe4AvCuiQ" name="load" visibility="public" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_8kBjkLinEe-7qdRIS-E9tA" name="cost_gantry">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
@@ -438,8 +438,8 @@ another abstract interface.</body>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-gipY63MEe-62LrKKCAHKA" value="5"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-gjQcK3MEe-62LrKKCAHKA" value="5"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_1hEtYLNFEe-ZoZe4AvCuiQ" name="in_belt" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Port" xmi:id="_Je9_MLNGEe-ZoZe4AvCuiQ" name="out_belt" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_1hEtYLNFEe-ZoZe4AvCuiQ" name="in_belt" visibility="public" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_Je9_MLNGEe-ZoZe4AvCuiQ" name="out_belt" visibility="public" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="__DUQgLinEe-7qdRIS-E9tA" name="cost_belt">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
@@ -857,13 +857,6 @@ another abstract interface.</body>
   <PortsAndFlows:FullPort xmi:id="_5G9GkK5xEe-tzZS-GCH0Kw" base_Port="_5G6DQK5xEe-tzZS-GCH0Kw"/>
   <PortsAndFlows:FullPort xmi:id="_6VR64K5xEe-tzZS-GCH0Kw" base_Port="_6VQswK5xEe-tzZS-GCH0Kw"/>
   <Blocks:Block xmi:id="_gJvloK5yEe-tzZS-GCH0Kw" base_Class="_gJqtIK5yEe-tzZS-GCH0Kw"/>
-  <Blocks:Block xmi:id="_xNDswLNAEe-ZoZe4AvCuiQ" base_Class="_xNDFsLNAEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FlowProperty xmi:id="_YPsa0LNBEe-ZoZe4AvCuiQ" base_Property="_YPpXgLNBEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_gXu48LNBEe-ZoZe4AvCuiQ" base_Port="_gXlvALNBEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_vbH_oLNBEe-ZoZe4AvCuiQ" base_Port="_vbHYkLNBEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_1nWRULNBEe-ZoZe4AvCuiQ" base_Port="_1nVqQLNBEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_0KJ9wLNFEe-ZoZe4AvCuiQ" base_Port="_0KJWsLNFEe-ZoZe4AvCuiQ"/>
-  <PortsAndFlows:FullPort xmi:id="_01VowLNFEe-ZoZe4AvCuiQ" base_Port="_01VBsLNFEe-ZoZe4AvCuiQ"/>
   <PortsAndFlows:FullPort xmi:id="_1hFUcLNFEe-ZoZe4AvCuiQ" base_Port="_1hEtYLNFEe-ZoZe4AvCuiQ"/>
   <PortsAndFlows:FullPort xmi:id="_1-544bNFEe-ZoZe4AvCuiQ" base_Port="_1-544LNFEe-ZoZe4AvCuiQ"/>
   <PortsAndFlows:FullPort xmi:id="_Je9_MbNGEe-ZoZe4AvCuiQ" base_Port="_Je9_MLNGEe-ZoZe4AvCuiQ"/>
