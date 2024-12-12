@@ -11,11 +11,20 @@
       <packagedElement xmi:type="uml:Package" xmi:id="_lNuSYKjLEe-r95W76X3QKw" name="Use_Cases">
         <packagedElement xmi:type="uml:UseCase" xmi:id="_oeKvcKjLEe-r95W76X3QKw" name="Startup Machine" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_zx2DIKjLEe-r95W76X3QKw" name="Assemble product" subject="_iENz8KhAEe-kyNuuq7T5lA">
-          <include xmi:type="uml:Include" xmi:id="_0H66QK2AEe-B9aOkkxc7lg" addition="_oeKvcKjLEe-r95W76X3QKw"/>
-          <include xmi:type="uml:Include" xmi:id="_1SgeEK2AEe-B9aOkkxc7lg" addition="_oeLWgKjLEe-r95W76X3QKw"/>
+          <include xmi:type="uml:Include" xmi:id="_ckHpgLiIEe-WkNwmREx5uA" addition="_VVoCgLiIEe-WkNwmREx5uA"/>
+          <include xmi:type="uml:Include" xmi:id="_dCPv8LiIEe-WkNwmREx5uA" addition="_SoOBELiIEe-WkNwmREx5uA"/>
         </packagedElement>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_oeLWgKjLEe-r95W76X3QKw" name="Load inputs" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
-        <packagedElement xmi:type="uml:UseCase" xmi:id="_oeLWgajLEe-r95W76X3QKw" name="Unload outputs" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_oeLWgajLEe-r95W76X3QKw" name="Unload outputs" subject="_iENz8KhAEe-kyNuuq7T5lA">
+          <include xmi:type="uml:Include" xmi:id="_ffec0LiHEe-WkNwmREx5uA" addition="_KFSMILiHEe-WkNwmREx5uA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_KFSMILiHEe-WkNwmREx5uA" name="Assemble N products" subject="_iENz8KhAEe-kyNuuq7T5lA">
+          <include xmi:type="uml:Include" xmi:id="_Mqi-MLiHEe-WkNwmREx5uA" addition="_zx2DIKjLEe-r95W76X3QKw"/>
+          <include xmi:type="uml:Include" xmi:id="_Ta8T8LiHEe-WkNwmREx5uA" addition="_oeKvcKjLEe-r95W76X3QKw"/>
+          <include xmi:type="uml:Include" xmi:id="_UBEf0LiHEe-WkNwmREx5uA" addition="_oeLWgKjLEe-r95W76X3QKw"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_SoOBELiIEe-WkNwmREx5uA" name="Input Top" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
+        <packagedElement xmi:type="uml:UseCase" xmi:id="_VVoCgLiIEe-WkNwmREx5uA" name="Input Bottom" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
       </packagedElement>
       <packagedElement xmi:type="uml:Actor" xmi:id="_fsSjkK2AEe-B9aOkkxc7lg" name="Operator"/>
       <packagedElement xmi:type="uml:Association" xmi:id="_NNDysK2BEe-B9aOkkxc7lg" memberEnd="_NNFn4K2BEe-B9aOkkxc7lg _NNGO8K2BEe-B9aOkkxc7lg">
@@ -31,6 +40,42 @@
         </eAnnotations>
         <ownedEnd xmi:type="uml:Property" xmi:id="_OV0xkq2BEe-B9aOkkxc7lg" name="load inputs" type="_oeLWgKjLEe-r95W76X3QKw" association="_OV0KgK2BEe-B9aOkkxc7lg"/>
         <ownedEnd xmi:type="uml:Property" xmi:id="_OV1YoK2BEe-B9aOkkxc7lg" name="operator" type="_fsSjkK2AEe-B9aOkkxc7lg" association="_OV0KgK2BEe-B9aOkkxc7lg"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_nSm3YLiGEe-WkNwmREx5uA" memberEnd="_nSpToLiGEe-WkNwmREx5uA _nSpTobiGEe-WkNwmREx5uA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_nSoskLiGEe-WkNwmREx5uA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_nSoskbiGEe-WkNwmREx5uA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_nSpToLiGEe-WkNwmREx5uA" name="unload outputs" type="_oeLWgajLEe-r95W76X3QKw" association="_nSm3YLiGEe-WkNwmREx5uA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_nSpTobiGEe-WkNwmREx5uA" name="operator" type="_fsSjkK2AEe-B9aOkkxc7lg" association="_nSm3YLiGEe-WkNwmREx5uA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Actor" xmi:id="_sWUzcLiHEe-WkNwmREx5uA" name="Control Program"/>
+      <packagedElement xmi:type="uml:Association" xmi:id="_hRxrcLiIEe-WkNwmREx5uA" memberEnd="_hRySgriIEe-WkNwmREx5uA _hRy5kLiIEe-WkNwmREx5uA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_hRySgLiIEe-WkNwmREx5uA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_hRySgbiIEe-WkNwmREx5uA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_hRySgriIEe-WkNwmREx5uA" name="assemble n products" type="_KFSMILiHEe-WkNwmREx5uA" association="_hRxrcLiIEe-WkNwmREx5uA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_hRy5kLiIEe-WkNwmREx5uA" name="control program" type="_sWUzcLiHEe-WkNwmREx5uA" association="_hRxrcLiIEe-WkNwmREx5uA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_iVOFcLiIEe-WkNwmREx5uA" memberEnd="_iVPTkriIEe-WkNwmREx5uA _iVP6oLiIEe-WkNwmREx5uA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_iVPTkLiIEe-WkNwmREx5uA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_iVPTkbiIEe-WkNwmREx5uA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_iVPTkriIEe-WkNwmREx5uA" name="assemble product" type="_zx2DIKjLEe-r95W76X3QKw" association="_iVOFcLiIEe-WkNwmREx5uA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_iVP6oLiIEe-WkNwmREx5uA" name="control program" type="_sWUzcLiHEe-WkNwmREx5uA" association="_iVOFcLiIEe-WkNwmREx5uA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_jNYcgLiIEe-WkNwmREx5uA" memberEnd="_jNYcg7iIEe-WkNwmREx5uA _jNZDkLiIEe-WkNwmREx5uA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_jNYcgbiIEe-WkNwmREx5uA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_jNYcgriIEe-WkNwmREx5uA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_jNYcg7iIEe-WkNwmREx5uA" name="input top" type="_SoOBELiIEe-WkNwmREx5uA" association="_jNYcgLiIEe-WkNwmREx5uA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_jNZDkLiIEe-WkNwmREx5uA" name="control program" type="_sWUzcLiHEe-WkNwmREx5uA" association="_jNYcgLiIEe-WkNwmREx5uA"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Association" xmi:id="_y1OUELiIEe-WkNwmREx5uA" memberEnd="_y1QJQLiIEe-WkNwmREx5uA _y1QJQbiIEe-WkNwmREx5uA">
+        <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_y1PiMLiIEe-WkNwmREx5uA" source="org.eclipse.papyrus">
+          <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_y1PiMbiIEe-WkNwmREx5uA" key="nature" value="UML_Nature"/>
+        </eAnnotations>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_y1QJQLiIEe-WkNwmREx5uA" name="input bottom" type="_VVoCgLiIEe-WkNwmREx5uA" association="_y1OUELiIEe-WkNwmREx5uA"/>
+        <ownedEnd xmi:type="uml:Property" xmi:id="_y1QJQbiIEe-WkNwmREx5uA" name="control program" type="_sWUzcLiHEe-WkNwmREx5uA" association="_y1OUELiIEe-WkNwmREx5uA"/>
       </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_376VcKg_Ee-kyNuuq7T5lA" name="Structure">
@@ -74,7 +119,7 @@ of the diagram :)</body>
  unique, but showing that would be 
 pointless in this diagram</body>
         </ownedComment>
-        <packagedElement xmi:type="uml:Class" xmi:id="_iENz8KhAEe-kyNuuq7T5lA" name="xCPS" useCase="_oeKvcKjLEe-r95W76X3QKw _oeLWgKjLEe-r95W76X3QKw _oeLWgajLEe-r95W76X3QKw _zx2DIKjLEe-r95W76X3QKw _mSW4oK2AEe-B9aOkkxc7lg _tgTGAK2AEe-B9aOkkxc7lg">
+        <packagedElement xmi:type="uml:Class" xmi:id="_iENz8KhAEe-kyNuuq7T5lA" name="xCPS" useCase="_oeKvcKjLEe-r95W76X3QKw _oeLWgKjLEe-r95W76X3QKw _oeLWgajLEe-r95W76X3QKw _zx2DIKjLEe-r95W76X3QKw _KFSMILiHEe-WkNwmREx5uA _SoOBELiIEe-WkNwmREx5uA _VVoCgLiIEe-WkNwmREx5uA">
           <ownedComment xmi:type="uml:Comment" xmi:id="_f8vCkLYAEe-HxKnsdzlWOA">
             <body>It is not necessary to show
 the internal structure of the modules
@@ -87,8 +132,6 @@ instance is NOT typed as a Gantry, but as an abstract
 interface. This port is connected to a Gantry type by
 another abstract interface.</body>
           </ownedComment>
-          <ownedUseCase xmi:type="uml:UseCase" xmi:id="_mSW4oK2AEe-B9aOkkxc7lg" name="Cleaning and maintainance" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
-          <ownedUseCase xmi:type="uml:UseCase" xmi:id="_tgTGAK2AEe-B9aOkkxc7lg" name="Troubleshooting" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_F8mWkLNEEe-ZoZe4AvCuiQ" name="i/o" type="_2vhlYKhAEe-kyNuuq7T5lA" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_P2lTcLNEEe-ZoZe4AvCuiQ" name="manufacture" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_4FDQkLNGEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
