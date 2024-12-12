@@ -137,6 +137,14 @@ another abstract interface.</body>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_VAeEULioEe-7qdRIS-E9tA" name="application_changed">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_pNZbMLipEe-7qdRIS-E9tA" name="Property26" type="_dSa48LiTEe-WkNwmREx5uA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_rfWPsLipEe-7qdRIS-E9tA" name="Property27" type="_sMY94LiTEe-WkNwmREx5uA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_ZUzVYLiqEe-7qdRIS-E9tA" name="Property30" type="_BVTM8LYFEe-HxKnsdzlWOA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_zxdaYLiqEe-7qdRIS-E9tA" name="Property31" type="_alJ24LiSEe-WkNwmREx5uA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_2tnpgLiqEe-7qdRIS-E9tA" name="Property32" type="_orXCwLYEEe-HxKnsdzlWOA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_EmTQkLirEe-7qdRIS-E9tA" name="make_span">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
           <ownedConnector xmi:type="uml:Connector" xmi:id="_e-HBULNGEe-ZoZe4AvCuiQ" name="Connector6">
             <end xmi:type="uml:ConnectorEnd" xmi:id="_e-IPcLNGEe-ZoZe4AvCuiQ" partWithPort="_F8mWkLNEEe-ZoZe4AvCuiQ" role="_VRubkLNGEe-ZoZe4AvCuiQ"/>
             <end xmi:type="uml:ConnectorEnd" xmi:id="_e-I2gLNGEe-ZoZe4AvCuiQ" partWithPort="_P2lTcLNEEe-ZoZe4AvCuiQ" role="_1hEtYLNFEe-ZoZe4AvCuiQ"/>
@@ -144,6 +152,94 @@ another abstract interface.</body>
           <ownedConnector xmi:type="uml:Connector" xmi:id="_fwMlkLNGEe-ZoZe4AvCuiQ" name="BindingConnector7">
             <end xmi:type="uml:ConnectorEnd" xmi:id="_fwNzsLNGEe-ZoZe4AvCuiQ" partWithPort="_F8mWkLNEEe-ZoZe4AvCuiQ" role="_1-544LNFEe-ZoZe4AvCuiQ"/>
             <end xmi:type="uml:ConnectorEnd" xmi:id="_fwNzsbNGEe-ZoZe4AvCuiQ" partWithPort="_P2lTcLNEEe-ZoZe4AvCuiQ" role="_Je9_MLNGEe-ZoZe4AvCuiQ"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_R0AdcLiqEe-7qdRIS-E9tA" name="BindingConnector28">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_R0LckLiqEe-7qdRIS-E9tA" role="_VAeEULioEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_R0LckbiqEe-7qdRIS-E9tA" role="_xKf2oLiTEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_SnrWELiqEe-7qdRIS-E9tA" name="BindingConnector29">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_SntyULiqEe-7qdRIS-E9tA" role="_xKf2oLiTEe-WkNwmREx5uA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_SntyUbiqEe-7qdRIS-E9tA" role="_cBEwYLiUEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_VVRvULirEe-7qdRIS-E9tA" name="BindingConnector34">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_VVUyoLirEe-7qdRIS-E9tA" role="_SGwsQLioEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_VVUyobirEe-7qdRIS-E9tA" role="_oCqPwLiQEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_WRya4LirEe-7qdRIS-E9tA" name="BindingConnector35">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_WR03ILirEe-7qdRIS-E9tA" role="_SGxTULioEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_WR03IbirEe-7qdRIS-E9tA" role="_gqtN8LiUEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_XA9OALirEe-7qdRIS-E9tA" name="BindingConnector36">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_XA_DMLirEe-7qdRIS-E9tA" role="_SGxTUbioEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_XA_DMbirEe-7qdRIS-E9tA" role="_fWzWELiUEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_X3cxILirEe-7qdRIS-E9tA" name="BindingConnector37">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_X3gbgLirEe-7qdRIS-E9tA" role="_SGxTUrioEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_X3gbgbirEe-7qdRIS-E9tA" role="_uOVH0LiQEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_YxuoELirEe-7qdRIS-E9tA" name="BindingConnector38">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_Yxy5gLirEe-7qdRIS-E9tA" role="_Tk1z0LioEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_Yxy5gbirEe-7qdRIS-E9tA" role="_GgQO4LYFEe-HxKnsdzlWOA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_ZnsmwLirEe-7qdRIS-E9tA" name="BindingConnector39">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_Znt04LirEe-7qdRIS-E9tA" role="_Tk2a4LioEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_Znt04birEe-7qdRIS-E9tA" role="_i-CigLiUEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_9agi0LirEe-7qdRIS-E9tA" name="BindingConnector40">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_9aiYALirEe-7qdRIS-E9tA" role="_EmTQkLirEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_9aiYAbirEe-7qdRIS-E9tA" role="_wDXE4LiSEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_-YbjoLirEe-7qdRIS-E9tA" name="BindingConnector41">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_-YcxwLirEe-7qdRIS-E9tA" role="_c_ijwLiUEe-WkNwmREx5uA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_-YdY0LirEe-7qdRIS-E9tA" role="_I1-p8LiTEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="__OGAULirEe-7qdRIS-E9tA" name="BindingConnector42">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="__OJqsLirEe-7qdRIS-E9tA" role="_FEt0QLiSEe-WkNwmREx5uA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="__OJqsbirEe-7qdRIS-E9tA" role="_upr8MLiSEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_kOH9cLisEe-7qdRIS-E9tA" name="BindingConnector43">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_kOJLkLisEe-7qdRIS-E9tA" role="_1Pbb8LikEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_kOJLkbisEe-7qdRIS-E9tA" role="_9zudcLiSEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_k_l2oLisEe-7qdRIS-E9tA" name="BindingConnector44">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_k_nr0LisEe-7qdRIS-E9tA" role="_FEt0QLiSEe-WkNwmREx5uA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_k_oS4LisEe-7qdRIS-E9tA" role="_0Y3AULikEe-7qdRIS-E9tA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_l0dpILisEe-7qdRIS-E9tA" name="BindingConnector45">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_l0hTgLisEe-7qdRIS-E9tA" role="_c_ijwLiUEe-WkNwmREx5uA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_l0h6kLisEe-7qdRIS-E9tA" role="_4bUwMLikEe-7qdRIS-E9tA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_n3MV4LisEe-7qdRIS-E9tA" name="BindingConnector46">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_n3NkALisEe-7qdRIS-E9tA" role="_4bUJILikEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_n3NkAbisEe-7qdRIS-E9tA" role="_xKf2oLiTEe-WkNwmREx5uA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_2wMKcLisEe-7qdRIS-E9tA" name="BindingConnector47">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_2wNYkLisEe-7qdRIS-E9tA" role="__47xQLikEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_2wNYkbisEe-7qdRIS-E9tA" role="_7aeNQLYEEe-HxKnsdzlWOA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_3e_xMLisEe-7qdRIS-E9tA" name="BindingConnector48">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_3fBmYLisEe-7qdRIS-E9tA" role="_FEt0QLiSEe-WkNwmREx5uA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_3fBmYbisEe-7qdRIS-E9tA" role="_93MuYLYEEe-HxKnsdzlWOA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_4gDlkLisEe-7qdRIS-E9tA" name="BindingConnector49">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_4gEzsLisEe-7qdRIS-E9tA" role="_9zudcLiSEe-WkNwmREx5uA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_4gEzsbisEe-7qdRIS-E9tA" role="_3BHAULYEEe-HxKnsdzlWOA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_8_F8sLisEe-7qdRIS-E9tA" name="BindingConnector50">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_8_KOILisEe-7qdRIS-E9tA" role="_e79fELiSEe-WkNwmREx5uA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_8_KOIbisEe-7qdRIS-E9tA" role="_PdLs0bimEe-7qdRIS-E9tA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_98WPILisEe-7qdRIS-E9tA" name="BindingConnector51">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_98XdQLisEe-7qdRIS-E9tA" role="__47xQLikEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_98XdQbisEe-7qdRIS-E9tA" role="_PdLFwbimEe-7qdRIS-E9tA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_-1_M4LisEe-7qdRIS-E9tA" name="BindingConnector52">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_-2BpILisEe-7qdRIS-E9tA" role="_9zudcLiSEe-WkNwmREx5uA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_-2BpIbisEe-7qdRIS-E9tA" role="_PdLFwLimEe-7qdRIS-E9tA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_DhwYcLitEe-7qdRIS-E9tA" name="BindingConnector53">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_DhxmkLitEe-7qdRIS-E9tA" role="_PdLs0LimEe-7qdRIS-E9tA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_DhxmkbitEe-7qdRIS-E9tA" role="_FEt0QLiSEe-WkNwmREx5uA"/>
           </ownedConnector>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_orXCwLYEEe-HxKnsdzlWOA" name="Project_Revenue">
             <ownedRule xmi:type="uml:Constraint" xmi:id="_fPNQkLilEe-7qdRIS-E9tA" name="Constraint5" constrainedElement="_e79fELiSEe-WkNwmREx5uA">
@@ -772,4 +868,58 @@ another abstract interface.</body>
   <ConstraintBlocks:ConstraintBlock xmi:id="_dScHELiTEe-WkNwmREx5uA" base_Class="_dSa48LiTEe-WkNwmREx5uA"/>
   <ConstraintBlocks:ConstraintBlock xmi:id="_nx5vkLiTEe-WkNwmREx5uA" base_Class="_nx36YLiTEe-WkNwmREx5uA"/>
   <ConstraintBlocks:ConstraintBlock xmi:id="_sMazELiTEe-WkNwmREx5uA" base_Class="_sMY94LiTEe-WkNwmREx5uA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_R0LckriqEe-7qdRIS-E9tA" base_Element="_R0LckbiqEe-7qdRIS-E9tA" propertyPath="_rfWPsLipEe-7qdRIS-E9tA" base_ConnectorEnd="_R0LckbiqEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_R0MDoLiqEe-7qdRIS-E9tA" base_Connector="_R0AdcLiqEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_SnuZYLiqEe-7qdRIS-E9tA" base_Element="_SntyULiqEe-7qdRIS-E9tA" propertyPath="_rfWPsLipEe-7qdRIS-E9tA" base_ConnectorEnd="_SntyULiqEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_SnuZYbiqEe-7qdRIS-E9tA" base_Element="_SntyUbiqEe-7qdRIS-E9tA" propertyPath="_Soy3wLinEe-7qdRIS-E9tA" base_ConnectorEnd="_SntyUbiqEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_SnvAcLiqEe-7qdRIS-E9tA" base_Connector="_SnrWELiqEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_VVUyorirEe-7qdRIS-E9tA" base_Element="_VVUyobirEe-7qdRIS-E9tA" propertyPath="_ZUzVYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_VVUyobirEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_VVUyo7irEe-7qdRIS-E9tA" base_Connector="_VVRvULirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_WR1eMLirEe-7qdRIS-E9tA" base_Element="_WR03IbirEe-7qdRIS-E9tA" propertyPath="_Soy3wLinEe-7qdRIS-E9tA" base_ConnectorEnd="_WR03IbirEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_WR1eMbirEe-7qdRIS-E9tA" base_Connector="_WRya4LirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_XA_DMrirEe-7qdRIS-E9tA" base_Element="_XA_DMbirEe-7qdRIS-E9tA" propertyPath="_Soy3wLinEe-7qdRIS-E9tA" base_ConnectorEnd="_XA_DMbirEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_XA_DM7irEe-7qdRIS-E9tA" base_Connector="_XA9OALirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_X3gbgrirEe-7qdRIS-E9tA" base_Element="_X3gbgbirEe-7qdRIS-E9tA" propertyPath="_ZUzVYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_X3gbgbirEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_X3hCkLirEe-7qdRIS-E9tA" base_Connector="_X3cxILirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_Yxy5grirEe-7qdRIS-E9tA" base_Element="_Yxy5gbirEe-7qdRIS-E9tA" propertyPath="_ZUzVYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_Yxy5gbirEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_YxzgkLirEe-7qdRIS-E9tA" base_Connector="_YxuoELirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_Znub8LirEe-7qdRIS-E9tA" base_Element="_Znt04birEe-7qdRIS-E9tA" propertyPath="_Soy3wLinEe-7qdRIS-E9tA" base_ConnectorEnd="_Znt04birEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_Znub8birEe-7qdRIS-E9tA" base_Connector="_ZnsmwLirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_9aiYArirEe-7qdRIS-E9tA" base_Element="_9aiYAbirEe-7qdRIS-E9tA" propertyPath="_zxdaYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_9aiYAbirEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_9ai_ELirEe-7qdRIS-E9tA" base_Connector="_9agi0LirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_-YdY0birEe-7qdRIS-E9tA" base_Element="_-YcxwLirEe-7qdRIS-E9tA" propertyPath="_Soy3wLinEe-7qdRIS-E9tA" base_ConnectorEnd="_-YcxwLirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_-YdY0rirEe-7qdRIS-E9tA" base_Element="_-YdY0LirEe-7qdRIS-E9tA" propertyPath="_zxdaYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_-YdY0LirEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_-YdY07irEe-7qdRIS-E9tA" base_Connector="_-YbjoLirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="__OJqsrirEe-7qdRIS-E9tA" base_Element="__OJqsLirEe-7qdRIS-E9tA" propertyPath="_ZUzVYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="__OJqsLirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="__OJqs7irEe-7qdRIS-E9tA" base_Element="__OJqsbirEe-7qdRIS-E9tA" propertyPath="_zxdaYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="__OJqsbirEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="__OJqtLirEe-7qdRIS-E9tA" base_Connector="__OGAULirEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_kOJLkrisEe-7qdRIS-E9tA" base_Element="_kOJLkLisEe-7qdRIS-E9tA" propertyPath="_pNZbMLipEe-7qdRIS-E9tA" base_ConnectorEnd="_kOJLkLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_kOJyoLisEe-7qdRIS-E9tA" base_Element="_kOJLkbisEe-7qdRIS-E9tA" propertyPath="_zxdaYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_kOJLkbisEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_kOJyobisEe-7qdRIS-E9tA" base_Connector="_kOH9cLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_k_oS4bisEe-7qdRIS-E9tA" base_Element="_k_nr0LisEe-7qdRIS-E9tA" propertyPath="_ZUzVYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_k_nr0LisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_k_o58LisEe-7qdRIS-E9tA" base_Element="_k_oS4LisEe-7qdRIS-E9tA" propertyPath="_pNZbMLipEe-7qdRIS-E9tA" base_ConnectorEnd="_k_oS4LisEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_k_phALisEe-7qdRIS-E9tA" base_Connector="_k_l2oLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_l0h6kbisEe-7qdRIS-E9tA" base_Element="_l0hTgLisEe-7qdRIS-E9tA" propertyPath="_Soy3wLinEe-7qdRIS-E9tA" base_ConnectorEnd="_l0hTgLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_l0ihoLisEe-7qdRIS-E9tA" base_Element="_l0h6kLisEe-7qdRIS-E9tA" propertyPath="_pNZbMLipEe-7qdRIS-E9tA" base_ConnectorEnd="_l0h6kLisEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_l0ihobisEe-7qdRIS-E9tA" base_Connector="_l0dpILisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_n3NkArisEe-7qdRIS-E9tA" base_Element="_n3NkALisEe-7qdRIS-E9tA" propertyPath="_pNZbMLipEe-7qdRIS-E9tA" base_ConnectorEnd="_n3NkALisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_n3NkA7isEe-7qdRIS-E9tA" base_Element="_n3NkAbisEe-7qdRIS-E9tA" propertyPath="_rfWPsLipEe-7qdRIS-E9tA" base_ConnectorEnd="_n3NkAbisEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_n3NkBLisEe-7qdRIS-E9tA" base_Connector="_n3MV4LisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_2wNYkrisEe-7qdRIS-E9tA" base_Element="_2wNYkLisEe-7qdRIS-E9tA" propertyPath="_pNZbMLipEe-7qdRIS-E9tA" base_ConnectorEnd="_2wNYkLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_2wNYk7isEe-7qdRIS-E9tA" base_Element="_2wNYkbisEe-7qdRIS-E9tA" propertyPath="_2tnpgLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_2wNYkbisEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_2wNYlLisEe-7qdRIS-E9tA" base_Connector="_2wMKcLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_3fBmYrisEe-7qdRIS-E9tA" base_Element="_3fBmYLisEe-7qdRIS-E9tA" propertyPath="_ZUzVYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_3fBmYLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_3fBmY7isEe-7qdRIS-E9tA" base_Element="_3fBmYbisEe-7qdRIS-E9tA" propertyPath="_2tnpgLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_3fBmYbisEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_3fBmZLisEe-7qdRIS-E9tA" base_Connector="_3e_xMLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_4gEzsrisEe-7qdRIS-E9tA" base_Element="_4gEzsLisEe-7qdRIS-E9tA" propertyPath="_zxdaYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_4gEzsLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_4gFawLisEe-7qdRIS-E9tA" base_Element="_4gEzsbisEe-7qdRIS-E9tA" propertyPath="_2tnpgLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_4gEzsbisEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_4gFawbisEe-7qdRIS-E9tA" base_Connector="_4gDlkLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_8_KOIrisEe-7qdRIS-E9tA" base_Element="_8_KOILisEe-7qdRIS-E9tA" propertyPath="_2tnpgLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_8_KOILisEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_8_K1MLisEe-7qdRIS-E9tA" base_Connector="_8_F8sLisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_98XdQrisEe-7qdRIS-E9tA" base_Element="_98XdQLisEe-7qdRIS-E9tA" propertyPath="_pNZbMLipEe-7qdRIS-E9tA" base_ConnectorEnd="_98XdQLisEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_98XdQ7isEe-7qdRIS-E9tA" base_Connector="_98WPILisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_-2BpIrisEe-7qdRIS-E9tA" base_Element="_-2BpILisEe-7qdRIS-E9tA" propertyPath="_zxdaYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_-2BpILisEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_-2CQMLisEe-7qdRIS-E9tA" base_Connector="_-1_M4LisEe-7qdRIS-E9tA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_DhxmkritEe-7qdRIS-E9tA" base_Element="_DhxmkbitEe-7qdRIS-E9tA" propertyPath="_ZUzVYLiqEe-7qdRIS-E9tA" base_ConnectorEnd="_DhxmkbitEe-7qdRIS-E9tA"/>
+  <Blocks:BindingConnector xmi:id="_DhyNoLitEe-7qdRIS-E9tA" base_Connector="_DhwYcLitEe-7qdRIS-E9tA"/>
 </xmi:XMI>
