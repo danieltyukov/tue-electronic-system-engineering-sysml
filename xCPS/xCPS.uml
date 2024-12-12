@@ -103,10 +103,38 @@ another abstract interface.</body>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_F8mWkLNEEe-ZoZe4AvCuiQ" name="i/o" type="_2vhlYKhAEe-kyNuuq7T5lA" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_P2lTcLNEEe-ZoZe4AvCuiQ" name="manufacture" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_4FDQkLNGEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_DhfNILYEEe-HxKnsdzlWOA" name="cost">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_PdLFwLimEe-7qdRIS-E9tA" name="volume">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_Dhf0MLYEEe-HxKnsdzlWOA" name="delay" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_PdLFwbimEe-7qdRIS-E9tA" name="capital_input">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_PdLs0LimEe-7qdRIS-E9tA" name="price">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_PdLs0bimEe-7qdRIS-E9tA" name="profit">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Soy3wLinEe-7qdRIS-E9tA" name="Property19" type="_nx36YLiTEe-WkNwmREx5uA"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_SGwsQLioEe-7qdRIS-E9tA" name="cost_belt">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_SGxTULioEe-7qdRIS-E9tA" name="delay_belt" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_SGxTUbioEe-7qdRIS-E9tA" name="delay_table" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_SGxTUrioEe-7qdRIS-E9tA" name="cost_table">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Tk1z0LioEe-7qdRIS-E9tA" name="cost_gantry">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Tk2a4LioEe-7qdRIS-E9tA" name="delay_gantry" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_VAeEULioEe-7qdRIS-E9tA" name="application_changed">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
           <ownedConnector xmi:type="uml:Connector" xmi:id="_e-HBULNGEe-ZoZe4AvCuiQ" name="Connector6">
@@ -118,17 +146,27 @@ another abstract interface.</body>
             <end xmi:type="uml:ConnectorEnd" xmi:id="_fwNzsbNGEe-ZoZe4AvCuiQ" partWithPort="_P2lTcLNEEe-ZoZe4AvCuiQ" role="_Je9_MLNGEe-ZoZe4AvCuiQ"/>
           </ownedConnector>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_orXCwLYEEe-HxKnsdzlWOA" name="Project_Revenue">
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_3BHAULYEEe-HxKnsdzlWOA" name="revenue">
+            <ownedRule xmi:type="uml:Constraint" xmi:id="_fPNQkLilEe-7qdRIS-E9tA" name="Constraint5" constrainedElement="_e79fELiSEe-WkNwmREx5uA">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_fPN3oLilEe-7qdRIS-E9tA" name="constraintSpec">
+                <language>C</language>
+                <body>profit = price*volume - capital_input;</body>
+              </specification>
+            </ownedRule>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_3BHAULYEEe-HxKnsdzlWOA" name="volume">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
             </ownedAttribute>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_7aeNQLYEEe-HxKnsdzlWOA" name="capital_input">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
             </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_93MuYLYEEe-HxKnsdzlWOA" name="delay_total">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_93MuYLYEEe-HxKnsdzlWOA" name="price">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
             </ownedAttribute>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_e79fELiSEe-WkNwmREx5uA" name="profit">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_7wEB8LilEe-7qdRIS-E9tA" name="cost" type="_dSa48LiTEe-WkNwmREx5uA" aggregation="composite" association="_7wBlsLilEe-7qdRIS-E9tA">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_7wEpALilEe-7qdRIS-E9tA"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_7wEpAbilEe-7qdRIS-E9tA" value="1"/>
             </ownedAttribute>
           </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_BVTM8LYFEe-HxKnsdzlWOA" name="Price">
@@ -171,7 +209,45 @@ another abstract interface.</body>
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
             </ownedAttribute>
           </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_dSa48LiTEe-WkNwmREx5uA" name="Cost"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_dSa48LiTEe-WkNwmREx5uA" name="Cost">
+            <ownedRule xmi:type="uml:Constraint" xmi:id="_7giNoLikEe-7qdRIS-E9tA" name="Constraint5" constrainedElement="__47xQLikEe-7qdRIS-E9tA">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_7gkC0LikEe-7qdRIS-E9tA" name="constraintSpec">
+                <language>C</language>
+                <body>capital_input = (price/1.2 - 1000)*volume + 72000*application_changed + 108000*(delay_total - application_changed*28)/56;</body>
+              </specification>
+            </ownedRule>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_0Y3AULikEe-7qdRIS-E9tA" name="price">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_1Pbb8LikEe-7qdRIS-E9tA" name="volume">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_4bUJILikEe-7qdRIS-E9tA" name="application_changed">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_4bUwMLikEe-7qdRIS-E9tA" name="delay_total">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="__47xQLikEe-7qdRIS-E9tA" name="capital_input">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_94ZncbilEe-7qdRIS-E9tA" name="price" type="_BVTM8LYFEe-HxKnsdzlWOA" aggregation="composite" association="_94XyQLilEe-7qdRIS-E9tA">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_94aOgLilEe-7qdRIS-E9tA"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_94a1kLilEe-7qdRIS-E9tA" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_APy8orimEe-7qdRIS-E9tA" name="delay" type="_nx36YLiTEe-WkNwmREx5uA" aggregation="composite" association="_APyVkLimEe-7qdRIS-E9tA">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_APy8o7imEe-7qdRIS-E9tA"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_APzjsLimEe-7qdRIS-E9tA" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_BbZ0IbimEe-7qdRIS-E9tA" name="volume" type="_alJ24LiSEe-WkNwmREx5uA" aggregation="composite" association="_BbYmALimEe-7qdRIS-E9tA">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_BbabMLimEe-7qdRIS-E9tA"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_BbabMbimEe-7qdRIS-E9tA" value="1"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_CW5zEbimEe-7qdRIS-E9tA" name="changes" type="_sMY94LiTEe-WkNwmREx5uA" aggregation="composite" association="_CW394LimEe-7qdRIS-E9tA">
+              <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_CW6aILimEe-7qdRIS-E9tA"/>
+              <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_CW6aIbimEe-7qdRIS-E9tA" value="1"/>
+            </ownedAttribute>
+          </nestedClassifier>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_nx36YLiTEe-WkNwmREx5uA" name="Delay">
             <ownedRule xmi:type="uml:Constraint" xmi:id="_mwI7ILiUEe-WkNwmREx5uA" name="Constraint6" constrainedElement="_c_ijwLiUEe-WkNwmREx5uA">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_mwKJQLiUEe-WkNwmREx5uA" name="constraintSpec">
@@ -220,10 +296,10 @@ another abstract interface.</body>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_1-544LNFEe-ZoZe4AvCuiQ" name="left_gantry" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_VRubkLNGEe-ZoZe4AvCuiQ" name="right_gantry" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_heZMwLNGEe-ZoZe4AvCuiQ" name="load" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_sZqV8LYDEe-HxKnsdzlWOA" name="cost_io">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8kBjkLinEe-7qdRIS-E9tA" name="cost_gantry">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_sZq9ALYDEe-HxKnsdzlWOA" name="delay_io" visibility="public">
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_8kCKoLinEe-7qdRIS-E9tA" name="delay_gantry" visibility="public">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
           <ownedConnector xmi:type="uml:Connector" xmi:id="_IP1S8LYBEe-HxKnsdzlWOA" name="Connector7">
@@ -265,14 +341,20 @@ another abstract interface.</body>
             <lowerValue xmi:type="uml:LiteralInteger" xmi:id="_-gipY63MEe-62LrKKCAHKA" value="5"/>
             <upperValue xmi:type="uml:LiteralUnlimitedNatural" xmi:id="_-gjQcK3MEe-62LrKKCAHKA" value="5"/>
           </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_uJ7rEK4_Ee-72egos7KMFg" name="cost_manu">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
-          </ownedAttribute>
-          <ownedAttribute xmi:type="uml:Property" xmi:id="_Dlf7UK5tEe-stoZHHNVWcQ" name="delay_manu" visibility="public">
-            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
-          </ownedAttribute>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_1hEtYLNFEe-ZoZe4AvCuiQ" name="in_belt" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_Je9_MLNGEe-ZoZe4AvCuiQ" name="out_belt" visibility="public" type="_xNDFsLNAEe-ZoZe4AvCuiQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="__DUQgLinEe-7qdRIS-E9tA" name="cost_belt">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="__DU3kbinEe-7qdRIS-E9tA" name="delay_belt" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Cs93wLioEe-7qdRIS-E9tA" name="delay_table" visibility="public">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_OCmTQLioEe-7qdRIS-E9tA" name="cost_table">
+            <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+          </ownedAttribute>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_rS6tQKhCEe-kyNuuq7T5lA" name="Components">
@@ -508,6 +590,36 @@ another abstract interface.</body>
           </eAnnotations>
           <ownedEnd xmi:type="uml:Property" xmi:id="_i8LZwLYBEe-HxKnsdzlWOA" name="loading_table" type="_8jJJ0KhAEe-kyNuuq7T5lA" association="_i8JkkLYBEe-HxKnsdzlWOA"/>
           <ownedEnd xmi:type="uml:Property" xmi:id="_i8LZwbYBEe-HxKnsdzlWOA" name="gantry_arm" type="_6E4-sKhAEe-kyNuuq7T5lA" association="_i8JkkLYBEe-HxKnsdzlWOA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_7wBlsLilEe-7qdRIS-E9tA" memberEnd="_7wEB8LilEe-7qdRIS-E9tA _7wEpArilEe-7qdRIS-E9tA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_7wDa4LilEe-7qdRIS-E9tA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_7wDa4bilEe-7qdRIS-E9tA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_7wEpArilEe-7qdRIS-E9tA" name="project_revenue" type="_orXCwLYEEe-HxKnsdzlWOA" association="_7wBlsLilEe-7qdRIS-E9tA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_94XyQLilEe-7qdRIS-E9tA" memberEnd="_94ZncbilEe-7qdRIS-E9tA _94a1kbilEe-7qdRIS-E9tA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_94ZAYLilEe-7qdRIS-E9tA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_94ZncLilEe-7qdRIS-E9tA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_94a1kbilEe-7qdRIS-E9tA" name="cost" type="_dSa48LiTEe-WkNwmREx5uA" association="_94XyQLilEe-7qdRIS-E9tA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_APyVkLimEe-7qdRIS-E9tA" memberEnd="_APy8orimEe-7qdRIS-E9tA _APzjsbimEe-7qdRIS-E9tA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_APy8oLimEe-7qdRIS-E9tA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_APy8obimEe-7qdRIS-E9tA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_APzjsbimEe-7qdRIS-E9tA" name="cost" type="_dSa48LiTEe-WkNwmREx5uA" association="_APyVkLimEe-7qdRIS-E9tA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_BbYmALimEe-7qdRIS-E9tA" memberEnd="_BbZ0IbimEe-7qdRIS-E9tA _BbabMrimEe-7qdRIS-E9tA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_BbZNELimEe-7qdRIS-E9tA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_BbZ0ILimEe-7qdRIS-E9tA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_BbabMrimEe-7qdRIS-E9tA" name="cost" type="_dSa48LiTEe-WkNwmREx5uA" association="_BbYmALimEe-7qdRIS-E9tA"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Association" xmi:id="_CW394LimEe-7qdRIS-E9tA" memberEnd="_CW5zEbimEe-7qdRIS-E9tA _CW6aIrimEe-7qdRIS-E9tA">
+          <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_CW5MALimEe-7qdRIS-E9tA" source="org.eclipse.papyrus">
+            <details xmi:type="ecore:EStringToStringMapEntry" xmi:id="_CW5zELimEe-7qdRIS-E9tA" key="nature" value="UML_Nature"/>
+          </eAnnotations>
+          <ownedEnd xmi:type="uml:Property" xmi:id="_CW6aIrimEe-7qdRIS-E9tA" name="cost" type="_dSa48LiTEe-WkNwmREx5uA" association="_CW394LimEe-7qdRIS-E9tA"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_KHArEK5uEe-stoZHHNVWcQ" name="Flow_Types">
