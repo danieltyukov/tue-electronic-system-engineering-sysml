@@ -121,15 +121,88 @@ another abstract interface.</body>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_3BHAULYEEe-HxKnsdzlWOA" name="revenue">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
             </ownedAttribute>
-            <ownedAttribute xmi:type="uml:Property" xmi:id="_7aeNQLYEEe-HxKnsdzlWOA" name="cost_total">
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_7aeNQLYEEe-HxKnsdzlWOA" name="capital_input">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
             </ownedAttribute>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_93MuYLYEEe-HxKnsdzlWOA" name="delay_total">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
             </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_e79fELiSEe-WkNwmREx5uA" name="profit">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
           </nestedClassifier>
-          <nestedClassifier xmi:type="uml:Class" xmi:id="_BVTM8LYFEe-HxKnsdzlWOA" name="BOM">
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_BVTM8LYFEe-HxKnsdzlWOA" name="Price">
+            <ownedRule xmi:type="uml:Constraint" xmi:id="_5ph_0LiQEe-WkNwmREx5uA" name="Constraint5" constrainedElement="_FEt0QLiSEe-WkNwmREx5uA">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_lXa8ELiREe-WkNwmREx5uA">
+                <language>C</language>
+                <body>price = 1.2*(cost_gantry + cost_belt +cost_table+1000);</body>
+              </specification>
+            </ownedRule>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_GgQO4LYFEe-HxKnsdzlWOA" name="cost_gantry">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_oCqPwLiQEe-WkNwmREx5uA" name="cost_belt">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_uOVH0LiQEe-WkNwmREx5uA" name="cost_table">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_FEt0QLiSEe-WkNwmREx5uA" name="price">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_alJ24LiSEe-WkNwmREx5uA" name="Volume">
+            <ownedRule xmi:type="uml:Constraint" xmi:id="_zPY8ALiSEe-WkNwmREx5uA" name="Constraint3" constrainedElement="_9zudcLiSEe-WkNwmREx5uA">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_zPZjELiSEe-WkNwmREx5uA" name="constraintSpec">
+                <language>C</language>
+                <body>volume = (1500 + 2*(6032.4 - price) + 50*(242 - make))*(1 - ((3*913 - delay_total)*delay_total/(2*913*913)) );</body>
+              </specification>
+            </ownedRule>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_upr8MLiSEe-WkNwmREx5uA" name="price">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_wDXE4LiSEe-WkNwmREx5uA" name="make_span">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_9zudcLiSEe-WkNwmREx5uA" name="volume">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_I1-p8LiTEe-WkNwmREx5uA" name="delay_total">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_dSa48LiTEe-WkNwmREx5uA" name="Cost"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_nx36YLiTEe-WkNwmREx5uA" name="Delay">
+            <ownedRule xmi:type="uml:Constraint" xmi:id="_mwI7ILiUEe-WkNwmREx5uA" name="Constraint6" constrainedElement="_c_ijwLiUEe-WkNwmREx5uA">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_mwKJQLiUEe-WkNwmREx5uA" name="constraintSpec">
+                <language>C</language>
+                <body>delay_total = application_changed*28 + delay_table + delay_belt + delay_gantry;</body>
+              </specification>
+            </ownedRule>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_cBEwYLiUEe-WkNwmREx5uA" name="application_changed">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_c_ijwLiUEe-WkNwmREx5uA" name="delay_total">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_fWzWELiUEe-WkNwmREx5uA" name="delay_table" visibility="public">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_gqtN8LiUEe-WkNwmREx5uA" name="delay_belt" visibility="public">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_i-CigLiUEe-WkNwmREx5uA" name="delay_gantry" visibility="public">
+              <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
+            </ownedAttribute>
+          </nestedClassifier>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_sMY94LiTEe-WkNwmREx5uA" name="Changes">
+            <ownedRule xmi:type="uml:Constraint" xmi:id="_13gYULiTEe-WkNwmREx5uA" name="Constraint2" constrainedElement="_xKf2oLiTEe-WkNwmREx5uA">
+              <specification xmi:type="uml:OpaqueExpression" xmi:id="_13g_YLiTEe-WkNwmREx5uA" name="constraintSpec">
+                <language>C</language>
+                <body>(application_changed==0)||(application_changed==1)</body>
+              </specification>
+            </ownedRule>
+            <ownedAttribute xmi:type="uml:Property" xmi:id="_xKf2oLiTEe-WkNwmREx5uA" name="application_changed">
               <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
             </ownedAttribute>
           </nestedClassifier>
@@ -583,4 +656,8 @@ another abstract interface.</body>
   <Blocks:Block xmi:id="_DaPyILYDEe-HxKnsdzlWOA" base_Class="_DaJEcLYDEe-HxKnsdzlWOA"/>
   <ConstraintBlocks:ConstraintBlock xmi:id="_orbUMLYEEe-HxKnsdzlWOA" base_Class="_orXCwLYEEe-HxKnsdzlWOA"/>
   <ConstraintBlocks:ConstraintBlock xmi:id="_BVVCILYFEe-HxKnsdzlWOA" base_Class="_BVTM8LYFEe-HxKnsdzlWOA"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_alOvYLiSEe-WkNwmREx5uA" base_Class="_alJ24LiSEe-WkNwmREx5uA"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_dScHELiTEe-WkNwmREx5uA" base_Class="_dSa48LiTEe-WkNwmREx5uA"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_nx5vkLiTEe-WkNwmREx5uA" base_Class="_nx36YLiTEe-WkNwmREx5uA"/>
+  <ConstraintBlocks:ConstraintBlock xmi:id="_sMazELiTEe-WkNwmREx5uA" base_Class="_sMY94LiTEe-WkNwmREx5uA"/>
 </xmi:XMI>
