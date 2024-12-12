@@ -759,6 +759,10 @@ another abstract interface.</body>
       <ownedComment xmi:type="uml:Comment" xmi:id="_ubL2QLjLEe-vO-UKelSOsg" annotatedElement="_oDDzYLjHEe-vO-UKelSOsg">
         <body>Considerations mean things to avoid or ensure they will happen</body>
       </ownedComment>
+      <ownedComment xmi:type="uml:Comment" xmi:id="_YHC3ELjREe-6rJr0YM3GuQ">
+        <body>I don't think any of the REQ-001.3.x requirements listed are 
+proper requirements. </body>
+      </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_jKhuwKjPEe-L8f7L98enqw" name="Value_types">
         <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_hNQL8KjeEe-L8f7L98enqw" name="T">
           <generalization xmi:type="uml:Generalization" xmi:id="_i-3TgKjeEe-L8f7L98enqw">
@@ -769,27 +773,26 @@ another abstract interface.</body>
       <packagedElement xmi:type="uml:Class" xmi:id="_ajdasLjHEe-vO-UKelSOsg" name="xCPS System Redesign">
         <nestedClassifier xmi:type="uml:Class" xmi:id="_nn1P8LjHEe-vO-UKelSOsg" name="Functional Requirements" isAbstract="true">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_d2MhULjIEe-vO-UKelSOsg" name="Batch Processing Capability"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_f18LgLjIEe-vO-UKelSOsg" name="Index Table 2 Operation Safety"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_flgi0LjIEe-vO-UKelSOsg" name="Collision Avoidance"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_eGyiELjIEe-vO-UKelSOsg" name="Belt 5 Operation"/>
         </nestedClassifier>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_n1_nwLjHEe-vO-UKelSOsg" name="Design Alternatives" isAbstract="true">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_YlkqULjKEe-vO-UKelSOsg" name="Application Modifications"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_YxzvgLjKEe-vO-UKelSOsg" name="Platform Modifications"/>
+          <nestedClassifier xmi:type="uml:Class" xmi:id="_zzc-oLjPEe-6rJr0YM3GuQ" name="Profitability"/>
         </nestedClassifier>
         <nestedClassifier xmi:type="uml:Class" xmi:id="_oDDzYLjHEe-vO-UKelSOsg" name="Cost and Time-to-Market Considerations" isAbstract="true">
           <nestedClassifier xmi:type="uml:Class" xmi:id="_XP2_ILjLEe-vO-UKelSOsg" name="Platform Changes Impact"/>
           <nestedClassifier xmi:type="uml:Class" xmi:id="_XtHi4LjLEe-vO-UKelSOsg" name="Application Changes Impact"/>
         </nestedClassifier>
       </packagedElement>
-      <packagedElement xmi:type="uml:Class" xmi:id="_eGyiELjIEe-vO-UKelSOsg" name="Belt 5 Operation"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_flgi0LjIEe-vO-UKelSOsg" name="Collision Avoidance"/>
-      <packagedElement xmi:type="uml:Class" xmi:id="_f18LgLjIEe-vO-UKelSOsg" name="Index Table 2 Operation Safety"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_plT-YLjJEe-vO-UKelSOsg" name="DeriveReqt6" client="_flgi0LjIEe-vO-UKelSOsg" supplier="_d2MhULjIEe-vO-UKelSOsg"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_q4k9ELjJEe-vO-UKelSOsg" name="DeriveReqt7" client="_f18LgLjIEe-vO-UKelSOsg" supplier="_d2MhULjIEe-vO-UKelSOsg"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_sm78ULjJEe-vO-UKelSOsg" name="DeriveReqt8" client="_eGyiELjIEe-vO-UKelSOsg" supplier="_d2MhULjIEe-vO-UKelSOsg"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_ZCHcYLjKEe-vO-UKelSOsg" name="Performance Evaluation"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Lwc8kLjLEe-vO-UKelSOsg" name="DeriveReqt11" client="_ZCHcYLjKEe-vO-UKelSOsg" supplier="_YlkqULjKEe-vO-UKelSOsg"/>
-      <packagedElement xmi:type="uml:Abstraction" xmi:id="_NAC8MLjLEe-vO-UKelSOsg" name="DeriveReqt12" client="_ZCHcYLjKEe-vO-UKelSOsg" supplier="_YxzvgLjKEe-vO-UKelSOsg"/>
       <packagedElement xmi:type="uml:Class" xmi:id="_XeaYgLjLEe-vO-UKelSOsg" name="Pricing and Sales Volume"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_urJIYLjMEe-vO-UKelSOsg" name="DeriveReqt15" client="_XeaYgLjLEe-vO-UKelSOsg" supplier="_XP2_ILjLEe-vO-UKelSOsg"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_YdwjYLjQEe-6rJr0YM3GuQ" name="Refine15" client="_ZCHcYLjKEe-vO-UKelSOsg" supplier="_zzc-oLjPEe-6rJr0YM3GuQ"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="__eqzILjQEe-6rJr0YM3GuQ" name="DeriveReqt10" client="_YlkqULjKEe-vO-UKelSOsg" supplier="_ZCHcYLjKEe-vO-UKelSOsg"/>
+      <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ad3mULjREe-6rJr0YM3GuQ" name="DeriveReqt11" client="_YxzvgLjKEe-vO-UKelSOsg" supplier="_ZCHcYLjKEe-vO-UKelSOsg"/>
     </packagedElement>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fvOvAKg_Ee-gVpz4eEJlLQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fvRLQKg_Ee-gVpz4eEJlLQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
@@ -969,16 +972,15 @@ another abstract interface.</body>
   <Requirements:Requirement xmi:id="_eG4BoLjIEe-vO-UKelSOsg" base_NamedElement="_eGyiELjIEe-vO-UKelSOsg" id="REQ-001.1.4" text="Belt 5 must stop when a product is ready for pickup and resume only after it is grabbed." base_Class="_eGyiELjIEe-vO-UKelSOsg"/>
   <Requirements:Requirement xmi:id="_fliYALjIEe-vO-UKelSOsg" base_NamedElement="_flgi0LjIEe-vO-UKelSOsg" id="REQ-001.1.2" text="Ensure that pieces never collide during operation." base_Class="_flgi0LjIEe-vO-UKelSOsg"/>
   <Requirements:Requirement xmi:id="_f1-nwLjIEe-vO-UKelSOsg" base_NamedElement="_f18LgLjIEe-vO-UKelSOsg" id="REQ-001.1.3" text="Index table 2 must not move when switches 2 or 3 are active or when the pick-and-place unit is running." base_Class="_f18LgLjIEe-vO-UKelSOsg"/>
-  <Requirements:DeriveReqt xmi:id="_plYP0LjJEe-vO-UKelSOsg" base_DirectedRelationship="_plT-YLjJEe-vO-UKelSOsg" base_Abstraction="_plT-YLjJEe-vO-UKelSOsg"/>
-  <Requirements:DeriveReqt xmi:id="_q4oncLjJEe-vO-UKelSOsg" base_DirectedRelationship="_q4k9ELjJEe-vO-UKelSOsg" base_Abstraction="_q4k9ELjJEe-vO-UKelSOsg"/>
-  <Requirements:DeriveReqt xmi:id="_sm-_oLjJEe-vO-UKelSOsg" base_DirectedRelationship="_sm78ULjJEe-vO-UKelSOsg" base_Abstraction="_sm78ULjJEe-vO-UKelSOsg"/>
   <Requirements:Requirement xmi:id="_YlntoLjKEe-vO-UKelSOsg" base_NamedElement="_YlkqULjKEe-vO-UKelSOsg" id="REQ-001.2.1" text="Explore changes to the application piece flow logic to optimize makespan." base_Class="_YlkqULjKEe-vO-UKelSOsg"/>
   <Requirements:Requirement xmi:id="_Yx2LwLjKEe-vO-UKelSOsg" base_NamedElement="_YxzvgLjKEe-vO-UKelSOsg" id="REQ-001.2.2" text="Evaluate changes to platform components (e.g., belts, gantry arms, and index tables) to reduce cost or improve performance." base_Class="_YxzvgLjKEe-vO-UKelSOsg"/>
-  <Requirements:Requirement xmi:id="_ZCJRkLjKEe-vO-UKelSOsg" base_NamedElement="_ZCHcYLjKEe-vO-UKelSOsg" id="REQ-001.2.3" text="Analyze design alternatives in terms of cost and makespan. Ensure that either the cost or the makespan is better than the current machine." base_Class="_ZCHcYLjKEe-vO-UKelSOsg"/>
-  <Requirements:DeriveReqt xmi:id="_Lwf_4LjLEe-vO-UKelSOsg" base_DirectedRelationship="_Lwc8kLjLEe-vO-UKelSOsg" base_Abstraction="_Lwc8kLjLEe-vO-UKelSOsg"/>
-  <Requirements:DeriveReqt xmi:id="_NAFYcLjLEe-vO-UKelSOsg" base_DirectedRelationship="_NAC8MLjLEe-vO-UKelSOsg" base_Abstraction="_NAC8MLjLEe-vO-UKelSOsg"/>
+  <Requirements:Requirement xmi:id="_ZCJRkLjKEe-vO-UKelSOsg" base_NamedElement="_ZCHcYLjKEe-vO-UKelSOsg" id="REQ-001.2.3" text="Ensure that either the cost is less than 6032.4 EUR and/or the makespan is lower than 242 seconds." base_Class="_ZCHcYLjKEe-vO-UKelSOsg"/>
   <Requirements:Requirement xmi:id="_XP73oLjLEe-vO-UKelSOsg" base_NamedElement="_XP2_ILjLEe-vO-UKelSOsg" id="REQ-001.3.2" text="Platform changes incur a delay of 8 weeks and a non-recurring engineering (NRE) cost of €108,000." base_Class="_XP2_ILjLEe-vO-UKelSOsg"/>
   <Requirements:Requirement xmi:id="_Xec0wLjLEe-vO-UKelSOsg" base_NamedElement="_XeaYgLjLEe-vO-UKelSOsg" id="REQ-001.3.3" text="Estimate sales volume using the provided formula: Volume = max{0, 1500 + 2(DefaultPrice - Price) + 50(DefaultMakespan - Makespan)}." base_Class="_XeaYgLjLEe-vO-UKelSOsg"/>
   <Requirements:Requirement xmi:id="_XtL0ULjLEe-vO-UKelSOsg" base_NamedElement="_XtHi4LjLEe-vO-UKelSOsg" id="REQ-001.3.1" text="Application changes incur a delay of 4 weeks and a non-recurring engineering (NRE) cost of €72,000." base_Class="_XtHi4LjLEe-vO-UKelSOsg"/>
   <Requirements:DeriveReqt xmi:id="_urNZ0LjMEe-vO-UKelSOsg" base_DirectedRelationship="_urJIYLjMEe-vO-UKelSOsg" base_Abstraction="_urJIYLjMEe-vO-UKelSOsg"/>
+  <Requirements:Requirement xmi:id="_zzk6cLjPEe-6rJr0YM3GuQ" base_NamedElement="_zzc-oLjPEe-6rJr0YM3GuQ" id="REQ-001.2.1" text="The new design must generate greater profit than the existing design over the lifetime of the product" base_Class="_zzc-oLjPEe-6rJr0YM3GuQ"/>
+  <Requirements:Refine xmi:id="_YdyYkLjQEe-6rJr0YM3GuQ" base_DirectedRelationship="_YdwjYLjQEe-6rJr0YM3GuQ" base_Abstraction="_YdwjYLjQEe-6rJr0YM3GuQ"/>
+  <Requirements:DeriveReqt xmi:id="__esoULjQEe-6rJr0YM3GuQ" base_DirectedRelationship="__eqzILjQEe-6rJr0YM3GuQ" base_Abstraction="__eqzILjQEe-6rJr0YM3GuQ"/>
+  <Requirements:DeriveReqt xmi:id="_Ad73wLjREe-6rJr0YM3GuQ" base_DirectedRelationship="_Ad3mULjREe-6rJr0YM3GuQ" base_Abstraction="_Ad3mULjREe-6rJr0YM3GuQ"/>
 </xmi:XMI>
