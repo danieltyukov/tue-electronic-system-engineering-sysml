@@ -752,7 +752,7 @@ another abstract interface.</body>
         </ownedAttribute>
       </packagedElement>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_7ma4UKg_Ee-kyNuuq7T5lA" name="Requirements">
+    <packagedElement xmi:type="uml:Package" xmi:id="_7ma4UKg_Ee-kyNuuq7T5lA" name="Requirements" visibility="package">
       <ownedComment xmi:type="uml:Comment" xmi:id="_Kgdw0LjKEe-vO-UKelSOsg" annotatedElement="_flgi0LjIEe-vO-UKelSOsg">
         <body>since collision-free handling ensures successful processing.</body>
       </ownedComment>
@@ -794,6 +794,7 @@ proper requirements. </body>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="__eqzILjQEe-6rJr0YM3GuQ" name="DeriveReqt10" client="_YlkqULjKEe-vO-UKelSOsg" supplier="_ZCHcYLjKEe-vO-UKelSOsg"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ad3mULjREe-6rJr0YM3GuQ" name="DeriveReqt11" client="_YxzvgLjKEe-vO-UKelSOsg" supplier="_ZCHcYLjKEe-vO-UKelSOsg"/>
     </packagedElement>
+    <packagedElement xmi:type="uml:Package" xmi:id="_Ei1BQNDSEe-iHfG7lPtkDw" name="Allocations"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fvOvAKg_Ee-gVpz4eEJlLQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fvRLQKg_Ee-gVpz4eEJlLQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
