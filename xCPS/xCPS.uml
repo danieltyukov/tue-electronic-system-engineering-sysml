@@ -758,7 +758,23 @@ another abstract interface.</body>
       <packagedElement xmi:type="uml:Package" xmi:id="_fVKegNDWEe-iHfG7lPtkDw" name="Internal block diagrams">
         <packagedElement xmi:type="uml:Package" xmi:id="_yWokUNDWEe-iHfG7lPtkDw" name="Parametric diagram"/>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_hYUCANDWEe-iHfG7lPtkDw" name="Package diagram"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hYUCANDWEe-iHfG7lPtkDw" name="Package diagram">
+        <packagedElement xmi:type="uml:Model" xmi:id="_9bwCINDXEe-iHfG7lPtkDw" name="pkg [model] xCPS_Machine [package overview model]">
+          <packagedElement xmi:type="uml:Package" xmi:id="_ETbEkNDYEe-iHfG7lPtkDw" name="Requirements"/>
+          <packagedElement xmi:type="uml:Package" xmi:id="_Qq0fENDYEe-iHfG7lPtkDw" name="Structure">
+            <packagedElement xmi:type="uml:Package" xmi:id="_K21RwNDZEe-iHfG7lPtkDw" name="Block definitions"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_NUkfgNDZEe-iHfG7lPtkDw" name="Internal blocks">
+              <packagedElement xmi:type="uml:Package" xmi:id="_WPfzINDZEe-iHfG7lPtkDw" name="Parametrics"/>
+            </packagedElement>
+          </packagedElement>
+          <packagedElement xmi:type="uml:Package" xmi:id="_LG9N4NDYEe-iHfG7lPtkDw" name="Behaviour">
+            <packagedElement xmi:type="uml:Package" xmi:id="_wGO9ENDYEe-iHfG7lPtkDw" name="Use-cases"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_yFiiYNDYEe-iHfG7lPtkDw" name="Sequences"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_yzJPQNDYEe-iHfG7lPtkDw" name="Activities"/>
+            <packagedElement xmi:type="uml:Package" xmi:id="_0bSRwNDYEe-iHfG7lPtkDw" name="State machine"/>
+          </packagedElement>
+        </packagedElement>
+      </packagedElement>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_7ma4UKg_Ee-kyNuuq7T5lA" name="Requirement diargam" visibility="package">
       <ownedComment xmi:type="uml:Comment" xmi:id="_Kgdw0LjKEe-vO-UKelSOsg" annotatedElement="_flgi0LjIEe-vO-UKelSOsg">
