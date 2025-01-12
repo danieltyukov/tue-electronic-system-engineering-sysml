@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xmi:XMI xmi:version="20131001" xmlns:xmi="http://www.omg.org/spec/XMI/20131001" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:Blocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks" xmlns:ConstraintBlocks="http://www.eclipse.org/papyrus/sysml/1.6/SysML/ConstraintBlocks" xmlns:PortsAndFlows="http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows" xmlns:Requirements="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements" xmlns:ecore="http://www.eclipse.org/emf/2002/Ecore" xmlns:uml="http://www.eclipse.org/uml2/5.0.0/UML" xsi:schemaLocation="http://www.eclipse.org/papyrus/sysml/1.6/SysML/Blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//blocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/ConstraintBlocks http://www.eclipse.org/papyrus/sysml/1.6/SysML#//constraintblocks http://www.eclipse.org/papyrus/sysml/1.6/SysML/PortsAndFlows http://www.eclipse.org/papyrus/sysml/1.6/SysML#//portsandflows http://www.eclipse.org/papyrus/sysml/1.6/SysML/Requirements http://www.eclipse.org/papyrus/sysml/1.6/SysML#//requirements">
-  <uml:Model xmi:id="_fur8cKg_Ee-gVpz4eEJlLQ" name="xCPS">
+  <uml:Model xmi:id="_fur8cKg_Ee-gVpz4eEJlLQ" name="xCPS (SysML diagram)">
     <packageImport xmi:type="uml:PackageImport" xmi:id="_fwUUIqg_Ee-gVpz4eEJlLQ">
       <importedPackage xmi:type="uml:Model" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#_0"/>
     </packageImport>
     <packageImport xmi:type="uml:PackageImport" xmi:id="_fwYlkKg_Ee-gVpz4eEJlLQ">
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
-    <packagedElement xmi:type="uml:Package" xmi:id="_1Eus8Kg_Ee-kyNuuq7T5lA" name="Behaviours">
+    <packagedElement xmi:type="uml:Package" xmi:id="_1Eus8Kg_Ee-kyNuuq7T5lA" name="Behaviour diagram">
       <ownedComment xmi:type="uml:Comment" xmi:id="_TOnOgLiPEe-WkNwmREx5uA">
         <body>US specs in &quot;Specifications&quot; package
 </body>
       </ownedComment>
-      <packagedElement xmi:type="uml:Package" xmi:id="_lNuSYKjLEe-r95W76X3QKw" name="Use_Cases">
+      <packagedElement xmi:type="uml:Package" xmi:id="_lNuSYKjLEe-r95W76X3QKw" name="Use-case diagram">
         <packagedElement xmi:type="uml:UseCase" xmi:id="_oeKvcKjLEe-r95W76X3QKw" name="Start Machine/Batch" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_zx2DIKjLEe-r95W76X3QKw" name="Assemble product" subject="_iENz8KhAEe-kyNuuq7T5lA">
           <include xmi:type="uml:Include" xmi:id="__ZlaQLiNEe-WkNwmREx5uA" addition="_oeLWgKjLEe-r95W76X3QKw"/>
@@ -45,8 +45,11 @@
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_vdtJMLiJEe-WkNwmREx5uA" name="Activities"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_CF_EANDVEe-iHfG7lPtkDw" name="Sequence diagram"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_etWGANDVEe-iHfG7lPtkDw" name="Activity diargram"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_e-XkkNDVEe-iHfG7lPtkDw" name="State machine diagram"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_376VcKg_Ee-kyNuuq7T5lA" name="Structure">
+    <packagedElement xmi:type="uml:Package" xmi:id="_376VcKg_Ee-kyNuuq7T5lA" name="Structure diagram">
       <ownedComment xmi:type="uml:Comment" xmi:id="_IJr5sKhCEe-kyNuuq7T5lA">
         <body>I/O Module: Elements used for I/O
 
@@ -751,8 +754,13 @@ another abstract interface.</body>
           <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
         </ownedAttribute>
       </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_cgFu0NDWEe-iHfG7lPtkDw" name="Block definition diagrams"/>
+      <packagedElement xmi:type="uml:Package" xmi:id="_fVKegNDWEe-iHfG7lPtkDw" name="Internal block diagrams">
+        <packagedElement xmi:type="uml:Package" xmi:id="_yWokUNDWEe-iHfG7lPtkDw" name="Parametric diagram"/>
+      </packagedElement>
+      <packagedElement xmi:type="uml:Package" xmi:id="_hYUCANDWEe-iHfG7lPtkDw" name="Package diagram"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_7ma4UKg_Ee-kyNuuq7T5lA" name="Requirements" visibility="package">
+    <packagedElement xmi:type="uml:Package" xmi:id="_7ma4UKg_Ee-kyNuuq7T5lA" name="Requirement diargam" visibility="package">
       <ownedComment xmi:type="uml:Comment" xmi:id="_Kgdw0LjKEe-vO-UKelSOsg" annotatedElement="_flgi0LjIEe-vO-UKelSOsg">
         <body>since collision-free handling ensures successful processing.</body>
       </ownedComment>
@@ -794,7 +802,6 @@ proper requirements. </body>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="__eqzILjQEe-6rJr0YM3GuQ" name="DeriveReqt10" client="_YlkqULjKEe-vO-UKelSOsg" supplier="_ZCHcYLjKEe-vO-UKelSOsg"/>
       <packagedElement xmi:type="uml:Abstraction" xmi:id="_Ad3mULjREe-6rJr0YM3GuQ" name="DeriveReqt11" client="_YxzvgLjKEe-vO-UKelSOsg" supplier="_ZCHcYLjKEe-vO-UKelSOsg"/>
     </packagedElement>
-    <packagedElement xmi:type="uml:Package" xmi:id="_Ei1BQNDSEe-iHfG7lPtkDw" name="Allocations"/>
     <profileApplication xmi:type="uml:ProfileApplication" xmi:id="_fvOvAKg_Ee-gVpz4eEJlLQ">
       <eAnnotations xmi:type="ecore:EAnnotation" xmi:id="_fvRLQKg_Ee-gVpz4eEJlLQ" source="http://www.eclipse.org/uml2/2.0.0/UML">
         <references xmi:type="ecore:EPackage" href="http://www.eclipse.org/papyrus/sysml/1.6/SysML#/"/>
