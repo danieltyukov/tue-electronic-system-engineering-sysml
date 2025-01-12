@@ -57,14 +57,6 @@ Manufacturing Module: Assembles Tops and Bottoms
 into finished products
 </body>
       </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_5I1UMKhCEe-kyNuuq7T5lA">
-        <body>This is for organizing the files</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_sP10wK5yEe-tzZS-GCH0Kw">
-        <body>This is a hack solution, but the block
-&quot;type_bag&quot; holds properties that can be
-copied and pasted</body>
-      </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_lk4zcKhCEe-kyNuuq7T5lA" name="Systems">
         <ownedComment xmi:type="uml:Comment" xmi:id="_-w6SkK3KEe-62LrKKCAHKA">
           <body>Only relevant parts are shown
@@ -90,6 +82,9 @@ of the diagram :)</body>
  unique, but showing that would be 
 pointless in this diagram</body>
         </ownedComment>
+        <ownedComment xmi:type="uml:Comment" xmi:id="_5I1UMKhCEe-kyNuuq7T5lA">
+          <body>This is for organizing the files</body>
+        </ownedComment>
         <packagedElement xmi:type="uml:Class" xmi:id="_iENz8KhAEe-kyNuuq7T5lA" name="xCPS" useCase="_oeKvcKjLEe-r95W76X3QKw _oeLWgKjLEe-r95W76X3QKw _oeLWgajLEe-r95W76X3QKw _zx2DIKjLEe-r95W76X3QKw _KFSMILiHEe-WkNwmREx5uA">
           <ownedComment xmi:type="uml:Comment" xmi:id="_f8vCkLYAEe-HxKnsdzlWOA">
             <body>It is not necessary to show
@@ -102,6 +97,10 @@ make it clear already. </body>
 instance is NOT typed as a Gantry, but as an abstract
 interface. This port is connected to a Gantry type by
 another abstract interface.</body>
+          </ownedComment>
+          <ownedComment xmi:type="uml:Comment" xmi:id="_L_gNMNDdEe-iHfG7lPtkDw">
+            <body>The parametric diagram for financial calculations id added to this constraint block
+</body>
           </ownedComment>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_F8mWkLNEEe-ZoZe4AvCuiQ" name="i/o" type="_2vhlYKhAEe-kyNuuq7T5lA" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_P2lTcLNEEe-ZoZe4AvCuiQ" name="manufacture" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
@@ -727,6 +726,11 @@ another abstract interface.</body>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_KHArEK5uEe-stoZHHNVWcQ" name="Flow_Types">
+        <ownedComment xmi:type="uml:Comment" xmi:id="_sP10wK5yEe-tzZS-GCH0Kw">
+          <body>This is a hack solution, but the block
+&quot;type_bag&quot; holds properties that can be
+copied and pasted</body>
+        </ownedComment>
         <packagedElement xmi:type="uml:Class" xmi:id="_MI97wK5uEe-stoZHHNVWcQ" name="Token"/>
         <packagedElement xmi:type="uml:Class" xmi:id="_Oizg8K5uEe-stoZHHNVWcQ" name="Token In">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_ZGASkK5xEe-tzZS-GCH0Kw" name="In" type="_MI97wK5uEe-stoZHHNVWcQ"/>
