@@ -44,7 +44,6 @@
           <ownedComment xmi:type="uml:Comment" xmi:id="_ca5X4LiPEe-WkNwmREx5uA"/>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_vdtJMLiJEe-WkNwmREx5uA" name="Activities"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_CF_EANDVEe-iHfG7lPtkDw" name="Sequence diagram"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_etWGANDVEe-iHfG7lPtkDw" name="Activity diargram"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_e-XkkNDVEe-iHfG7lPtkDw" name="State machine diagram"/>
