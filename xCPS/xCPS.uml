@@ -44,7 +44,6 @@
           <ownedComment xmi:type="uml:Comment" xmi:id="_ca5X4LiPEe-WkNwmREx5uA"/>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_CF_EANDVEe-iHfG7lPtkDw" name="Sequence diagram"/>
       <packagedElement xmi:type="uml:Package" xmi:id="_etWGANDVEe-iHfG7lPtkDw" name="Activity diargram">
         <packagedElement xmi:type="uml:Activity" xmi:id="_tC2QkNLFEe-sK4yKW0uSOA" name="dispatcher" node="_1nVjENMmEe-DB7QpLEQzrA _1NPBANMmEe-DB7QpLEQzrA _qUrjENMmEe-DB7QpLEQzrA _ondzUNMmEe-DB7QpLEQzrA _gPajQNMmEe-DB7QpLEQzrA _XoH9UNMmEe-DB7QpLEQzrA _LpdL4NMmEe-DB7QpLEQzrA _EMBxANMmEe-DB7QpLEQzrA _9IYIENMlEe-DB7QpLEQzrA _wq1pUNMlEe-DB7QpLEQzrA _q3GJENMlEe-DB7QpLEQzrA _9UV88NMkEe-DB7QpLEQzrA _79HEQNMkEe-DB7QpLEQzrA _2WrAMNMkEe-DB7QpLEQzrA _yNGiwNMkEe-DB7QpLEQzrA _prH6oNMkEe-DB7QpLEQzrA _chJMoNMkEe-DB7QpLEQzrA _b4w-ANMkEe-DB7QpLEQzrA _TfHLcNMkEe-DB7QpLEQzrA _9J_jkNMjEe-DB7QpLEQzrA _t5IooNMjEe-DB7QpLEQzrA _tLMkkNMjEe-DB7QpLEQzrA _oasqANMjEe-DB7QpLEQzrA _jeYhANMjEe-DB7QpLEQzrA _gQQYINMjEe-DB7QpLEQzrA _YbLSQNMjEe-DB7QpLEQzrA _RJOuoNMjEe-DB7QpLEQzrA _ErYG0NMjEe-DB7QpLEQzrA _1CDBgNMiEe-DB7QpLEQzrA _xJyWgNMiEe-DB7QpLEQzrA _pTHVMNMiEe-DB7QpLEQzrA _jg4Q0NMiEe-DB7QpLEQzrA _WzX44NMhEe-DB7QpLEQzrA _dMYGINLQEe-sK4yKW0uSOA _Ez7pENMnEe-DB7QpLEQzrA _F_So8NMnEe-DB7QpLEQzrA">
           <ownedParameter xmi:type="uml:Parameter" xmi:id="_chZysNMhEe-DB7QpLEQzrA" type="_V3UTMNLHEe-sK4yKW0uSOA" direction="out"/>
@@ -547,7 +546,6 @@ copied and pasted</body>
           </packagedElement>
         </packagedElement>
       </packagedElement>
-      <packagedElement xmi:type="uml:Package" xmi:id="_e-XkkNDVEe-iHfG7lPtkDw" name="State machine diagram"/>
     </packagedElement>
     <packagedElement xmi:type="uml:Package" xmi:id="_376VcKg_Ee-kyNuuq7T5lA" name="Structure diagram">
       <ownedComment xmi:type="uml:Comment" xmi:id="_IJr5sKhCEe-kyNuuq7T5lA">
