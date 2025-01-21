@@ -952,10 +952,110 @@ another abstract interface.</body>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_OCmTQLioEe-7qdRIS-E9tA" name="cost_table">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_lsq5wNeSEe-asPav7eVnBw" name="manufacturing output" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_mEVg8NeUEe-asPav7eVnBw" name="belt5" type="_mS6vgNeUEe-asPav7eVnBw" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_q6UGgNeWEe-cbZvKYA1sWA" name="belt4" type="_rKnMUNeWEe-cbZvKYA1sWA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_C04pQNeXEe-cbZvKYA1sWA" name="indexing table" type="_DA8IQNeXEe-cbZvKYA1sWA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_b_DLoNeXEe-cbZvKYA1sWA" name="pick and place" type="_cMrX8NeXEe-cbZvKYA1sWA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_y4rOwNeXEe-cbZvKYA1sWA" name="belt3" type="_zE5s4NeXEe-cbZvKYA1sWA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_BQGAQNeYEe-cbZvKYA1sWA" name="belt2" type="_BczmkNeYEe-cbZvKYA1sWA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_Zvw-sNeZEe-cbZvKYA1sWA" name="turner" type="_atlR0NeZEe-cbZvKYA1sWA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Property" xmi:id="_uz6t8NeZEe-cbZvKYA1sWA" name="belt1" type="_vA6BENeZEe-cbZvKYA1sWA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_0_SrENeZEe-cbZvKYA1sWA" name="belt in" type="_6E4-sKhAEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_Siu3oNeWEe-cbZvKYA1sWA" name="Connector17">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_SivesNeWEe-cbZvKYA1sWA" role="_lsq5wNeSEe-asPav7eVnBw"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_SivesdeWEe-cbZvKYA1sWA" partWithPort="_mEVg8NeUEe-asPav7eVnBw" role="_OO1ZgNeWEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_3o7uMNeWEe-cbZvKYA1sWA" name="Connector19">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_3o8VQNeWEe-cbZvKYA1sWA" partWithPort="_mEVg8NeUEe-asPav7eVnBw" role="_UyAyoNeWEe-cbZvKYA1sWA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_3o8VQdeWEe-cbZvKYA1sWA" partWithPort="_q6UGgNeWEe-cbZvKYA1sWA" role="_tYZSgNeWEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_QbC88NeXEe-cbZvKYA1sWA" name="Connector21">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_QbDkANeXEe-cbZvKYA1sWA" partWithPort="_q6UGgNeWEe-cbZvKYA1sWA" role="_xVGYoNeWEe-cbZvKYA1sWA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_QbDkAdeXEe-cbZvKYA1sWA" partWithPort="_C04pQNeXEe-cbZvKYA1sWA" role="_JU9EANeXEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_nsCXMNeXEe-cbZvKYA1sWA" name="BindingConnector23">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_nsDlUNeXEe-cbZvKYA1sWA" partWithPort="_C04pQNeXEe-cbZvKYA1sWA" role="_YWUxcNeXEe-cbZvKYA1sWA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_nsDlUdeXEe-cbZvKYA1sWA" partWithPort="_b_DLoNeXEe-cbZvKYA1sWA" role="_iaaskNeXEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_8HVWsNeXEe-cbZvKYA1sWA" name="Connector25">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_8HV9wNeXEe-cbZvKYA1sWA" partWithPort="_b_DLoNeXEe-cbZvKYA1sWA" role="_i5GzsNeXEe-cbZvKYA1sWA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_8HV9wdeXEe-cbZvKYA1sWA" partWithPort="_y4rOwNeXEe-cbZvKYA1sWA" role="_5cSswNeXEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_NqcBENeYEe-cbZvKYA1sWA" name="Connector27">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_NqcoINeYEe-cbZvKYA1sWA" partWithPort="_y4rOwNeXEe-cbZvKYA1sWA" role="_-aWiMNeXEe-cbZvKYA1sWA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_NqcoIdeYEe-cbZvKYA1sWA" partWithPort="_BQGAQNeYEe-cbZvKYA1sWA" role="_FnRb4NeYEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_OwP9INeZEe-cbZvKYA1sWA" name="Connector28">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_OwQkMNeZEe-cbZvKYA1sWA" partWithPort="_C04pQNeXEe-cbZvKYA1sWA" role="_J5iXwNeXEe-cbZvKYA1sWA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_OwQkMdeZEe-cbZvKYA1sWA" partWithPort="_BQGAQNeYEe-cbZvKYA1sWA" role="_DJPTMNeYEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_mpxXANeZEe-cbZvKYA1sWA" name="Connector30">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_mpx-ENeZEe-cbZvKYA1sWA" partWithPort="_BQGAQNeYEe-cbZvKYA1sWA" role="_GDkWUNeYEe-cbZvKYA1sWA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_mpx-EdeZEe-cbZvKYA1sWA" partWithPort="_Zvw-sNeZEe-cbZvKYA1sWA" role="_d1Q0cNeZEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_nV1y0NeZEe-cbZvKYA1sWA" name="Connector31">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_nV2Z4NeZEe-cbZvKYA1sWA" partWithPort="_BQGAQNeYEe-cbZvKYA1sWA" role="_GcaUINeYEe-cbZvKYA1sWA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_nV2Z4deZEe-cbZvKYA1sWA" partWithPort="_Zvw-sNeZEe-cbZvKYA1sWA" role="_eVoWkNeZEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_8cJeMNeZEe-cbZvKYA1sWA" name="Connector34">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_8cKFQNeZEe-cbZvKYA1sWA" partWithPort="_BQGAQNeYEe-cbZvKYA1sWA" role="_D-oDENeYEe-cbZvKYA1sWA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_8cKFQdeZEe-cbZvKYA1sWA" partWithPort="_uz6t8NeZEe-cbZvKYA1sWA" role="_247GMNeZEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+          <ownedConnector xmi:type="uml:Connector" xmi:id="_EmK5UNeaEe-cbZvKYA1sWA" name="Connector35">
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_EmLgYNeaEe-cbZvKYA1sWA" partWithPort="_uz6t8NeZEe-cbZvKYA1sWA" role="_2Tzm8NeZEe-cbZvKYA1sWA"/>
+            <end xmi:type="uml:ConnectorEnd" xmi:id="_EmLgYdeaEe-cbZvKYA1sWA" role="_0_SrENeZEe-cbZvKYA1sWA"/>
+          </ownedConnector>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_Zm9FINeSEe-asPav7eVnBw" name="Actor1"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_bYSf4NeSEe-asPav7eVnBw" name="Actor2"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_dt3QINeSEe-asPav7eVnBw" name="Actor3"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_er_sUNeSEe-asPav7eVnBw" name="Actor4"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_gW2EkNeSEe-asPav7eVnBw" name="Actor5"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_hYK-sNeSEe-asPav7eVnBw" name="Actor6"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_jOEJUNeSEe-asPav7eVnBw" name="Actor7"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_j4at4NeSEe-asPav7eVnBw" name="Actor8"/>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_sdAIoNeTEe-asPav7eVnBw" name="Actor9"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_mS6vgNeUEe-asPav7eVnBw" name="belt">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_OO1ZgNeWEe-cbZvKYA1sWA" name="belt out" type="_6E4-sKhAEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_UyAyoNeWEe-cbZvKYA1sWA" name="belt in" type="_6E4-sKhAEe-kyNuuq7T5lA" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Actor" xmi:id="_bw8ToNeWEe-cbZvKYA1sWA" name="belt"/>
+        <packagedElement xmi:type="uml:Class" xmi:id="_rKnMUNeWEe-cbZvKYA1sWA" name="belt">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_tYZSgNeWEe-cbZvKYA1sWA" type="_6E4-sKhAEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_xVGYoNeWEe-cbZvKYA1sWA" name="switch" type="_6E4-sKhAEe-kyNuuq7T5lA" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_DA8IQNeXEe-cbZvKYA1sWA" name="indexing table">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_JU9EANeXEe-cbZvKYA1sWA" name="switch out" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_J5iXwNeXEe-cbZvKYA1sWA" name="switch in" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_YWUxcNeXEe-cbZvKYA1sWA" name="index in" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_cMrX8NeXEe-cbZvKYA1sWA" name="pick and place">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_iaaskNeXEe-cbZvKYA1sWA" name="p&amp;p out" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_i5GzsNeXEe-cbZvKYA1sWA" name="p&amp;p in" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_zE5s4NeXEe-cbZvKYA1sWA" name="belt">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_5cSswNeXEe-cbZvKYA1sWA" name="belt out" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_-aWiMNeXEe-cbZvKYA1sWA" name="belt in" type="_6E4-sKhAEe-kyNuuq7T5lA" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_BczmkNeYEe-cbZvKYA1sWA" name="belt">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_DJPTMNeYEe-cbZvKYA1sWA" name="switch out" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_D-oDENeYEe-cbZvKYA1sWA" name="belt in" type="_6E4-sKhAEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_FnRb4NeYEe-cbZvKYA1sWA" name="belt out" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_GDkWUNeYEe-cbZvKYA1sWA" name="belt out" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_GcaUINeYEe-cbZvKYA1sWA" name="belt in" type="_6E4-sKhAEe-kyNuuq7T5lA" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_atlR0NeZEe-cbZvKYA1sWA" name="turner">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_d1Q0cNeZEe-cbZvKYA1sWA" name="turner in" type="_6E4-sKhAEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_eVoWkNeZEe-cbZvKYA1sWA" name="turner out" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+        </packagedElement>
+        <packagedElement xmi:type="uml:Class" xmi:id="_vA6BENeZEe-cbZvKYA1sWA" name="belt1">
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_2Tzm8NeZEe-cbZvKYA1sWA" name="manufacturing input" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_247GMNeZEe-cbZvKYA1sWA" name="belt out" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
         </packagedElement>
       </packagedElement>
       <packagedElement xmi:type="uml:Package" xmi:id="_rS6tQKhCEe-kyNuuq7T5lA" name="Components">
-        <packagedElement xmi:type="uml:Class" xmi:id="_6E4-sKhAEe-kyNuuq7T5lA" name="Gantry_arm">
+        <packagedElement xmi:type="uml:Class" xmi:id="_6E4-sKhAEe-kyNuuq7T5lA" name="part input" visibility="public">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_rvy2AKvxEe-d8PAuPFafEw" name="capacity_gantry" visibility="public">
             <type xmi:type="uml:PrimitiveType" href="pathmap://UML_LIBRARIES/UMLPrimitiveTypes.library.uml#Real"/>
           </ownedAttribute>
@@ -967,6 +1067,7 @@ another abstract interface.</body>
           </ownedAttribute>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_5G6DQK5xEe-tzZS-GCH0Kw" name="out" visibility="public" type="_W8r9AK5uEe-stoZHHNVWcQ" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_6VQswK5xEe-tzZS-GCH0Kw" name="in" visibility="public" type="_Oizg8K5uEe-stoZHHNVWcQ" aggregation="composite"/>
+          <ownedAttribute xmi:type="uml:Port" xmi:id="_40RnUNeTEe-asPav7eVnBw" name="Port6" aggregation="composite"/>
         </packagedElement>
         <packagedElement xmi:type="uml:Class" xmi:id="_8jJJ0KhAEe-kyNuuq7T5lA" name="Loading_table">
           <ownedAttribute xmi:type="uml:Property" xmi:id="_hp6LIKvxEe-d8PAuPFafEw" name="capacity_load" visibility="public">
@@ -1494,4 +1595,55 @@ proper requirements. </body>
   <Blocks:Block xmi:id="_TWDQUNLHEe-sK4yKW0uSOA" base_Class="_TWCCMtLHEe-sK4yKW0uSOA"/>
   <Blocks:Block xmi:id="_V3U6QNLHEe-sK4yKW0uSOA" base_Class="_V3UTMNLHEe-sK4yKW0uSOA"/>
   <Blocks:Block xmi:id="_V3VhUNLHEe-sK4yKW0uSOA" base_Class="_V3UTMtLHEe-sK4yKW0uSOA"/>
+  <PortsAndFlows:FullPort xmi:id="_lssu8NeSEe-asPav7eVnBw" base_Port="_lsq5wNeSEe-asPav7eVnBw"/>
+  <Blocks:Block xmi:id="_mS8ksNeUEe-asPav7eVnBw" base_Class="_mS6vgNeUEe-asPav7eVnBw"/>
+  <PortsAndFlows:FullPort xmi:id="_OO2noNeWEe-cbZvKYA1sWA" base_Port="_OO1ZgNeWEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_SivesteWEe-cbZvKYA1sWA" base_Element="_SivesdeWEe-cbZvKYA1sWA" propertyPath="_mEVg8NeUEe-asPav7eVnBw" base_ConnectorEnd="_SivesdeWEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_UyCn0NeWEe-cbZvKYA1sWA" base_Port="_UyAyoNeWEe-cbZvKYA1sWA"/>
+  <Blocks:Block xmi:id="_rKpBgNeWEe-cbZvKYA1sWA" base_Class="_rKnMUNeWEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_tYbHsNeWEe-cbZvKYA1sWA" base_Port="_tYZSgNeWEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_xVIN0NeWEe-cbZvKYA1sWA" base_Port="_xVGYoNeWEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_3o8VQteWEe-cbZvKYA1sWA" base_Element="_3o8VQNeWEe-cbZvKYA1sWA" propertyPath="_mEVg8NeUEe-asPav7eVnBw" base_ConnectorEnd="_3o8VQNeWEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_3o8VQ9eWEe-cbZvKYA1sWA" base_Element="_3o8VQdeWEe-cbZvKYA1sWA" propertyPath="_q6UGgNeWEe-cbZvKYA1sWA" base_ConnectorEnd="_3o8VQdeWEe-cbZvKYA1sWA"/>
+  <Blocks:Block xmi:id="_DA99cNeXEe-cbZvKYA1sWA" base_Class="_DA8IQNeXEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_JU-SINeXEe-cbZvKYA1sWA" base_Port="_JU9EANeXEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_J5kM8NeXEe-cbZvKYA1sWA" base_Port="_J5iXwNeXEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_QbDkAteXEe-cbZvKYA1sWA" base_Element="_QbDkANeXEe-cbZvKYA1sWA" propertyPath="_q6UGgNeWEe-cbZvKYA1sWA" base_ConnectorEnd="_QbDkANeXEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_QbELENeXEe-cbZvKYA1sWA" base_Element="_QbDkAdeXEe-cbZvKYA1sWA" propertyPath="_C04pQNeXEe-cbZvKYA1sWA" base_ConnectorEnd="_QbDkAdeXEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_YWXNsNeXEe-cbZvKYA1sWA" base_Port="_YWUxcNeXEe-cbZvKYA1sWA"/>
+  <Blocks:Block xmi:id="_cMsmENeXEe-cbZvKYA1sWA" base_Class="_cMrX8NeXEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_iachwNeXEe-cbZvKYA1sWA" base_Port="_iaaskNeXEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_i5IB0NeXEe-cbZvKYA1sWA" base_Port="_i5GzsNeXEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_nsDlUteXEe-cbZvKYA1sWA" base_Element="_nsDlUNeXEe-cbZvKYA1sWA" propertyPath="_C04pQNeXEe-cbZvKYA1sWA" base_ConnectorEnd="_nsDlUNeXEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_nsEMYNeXEe-cbZvKYA1sWA" base_Element="_nsDlUdeXEe-cbZvKYA1sWA" propertyPath="_b_DLoNeXEe-cbZvKYA1sWA" base_ConnectorEnd="_nsDlUdeXEe-cbZvKYA1sWA"/>
+  <Blocks:BindingConnector xmi:id="_nsEMYdeXEe-cbZvKYA1sWA" base_Connector="_nsCXMNeXEe-cbZvKYA1sWA"/>
+  <Blocks:Block xmi:id="_zE67ANeXEe-cbZvKYA1sWA" base_Class="_zE5s4NeXEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_5cT64NeXEe-cbZvKYA1sWA" base_Port="_5cSswNeXEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_8HV9wteXEe-cbZvKYA1sWA" base_Element="_8HV9wNeXEe-cbZvKYA1sWA" propertyPath="_b_DLoNeXEe-cbZvKYA1sWA" base_ConnectorEnd="_8HV9wNeXEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_8HWk0NeXEe-cbZvKYA1sWA" base_Element="_8HV9wdeXEe-cbZvKYA1sWA" propertyPath="_y4rOwNeXEe-cbZvKYA1sWA" base_ConnectorEnd="_8HV9wdeXEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_-aXwUNeXEe-cbZvKYA1sWA" base_Port="_-aWiMNeXEe-cbZvKYA1sWA"/>
+  <Blocks:Block xmi:id="_Bc00sNeYEe-cbZvKYA1sWA" base_Class="_BczmkNeYEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_DJRIYNeYEe-cbZvKYA1sWA" base_Port="_DJPTMNeYEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_D-pRMNeYEe-cbZvKYA1sWA" base_Port="_D-oDENeYEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_FnSqANeYEe-cbZvKYA1sWA" base_Port="_FnRb4NeYEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_GDmLgNeYEe-cbZvKYA1sWA" base_Port="_GDkWUNeYEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_GccJUNeYEe-cbZvKYA1sWA" base_Port="_GcaUINeYEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_NqcoIteYEe-cbZvKYA1sWA" base_Element="_NqcoINeYEe-cbZvKYA1sWA" propertyPath="_y4rOwNeXEe-cbZvKYA1sWA" base_ConnectorEnd="_NqcoINeYEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_NqcoI9eYEe-cbZvKYA1sWA" base_Element="_NqcoIdeYEe-cbZvKYA1sWA" propertyPath="_BQGAQNeYEe-cbZvKYA1sWA" base_ConnectorEnd="_NqcoIdeYEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_OwQkMteZEe-cbZvKYA1sWA" base_Element="_OwQkMNeZEe-cbZvKYA1sWA" propertyPath="_C04pQNeXEe-cbZvKYA1sWA" base_ConnectorEnd="_OwQkMNeZEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_OwQkM9eZEe-cbZvKYA1sWA" base_Element="_OwQkMdeZEe-cbZvKYA1sWA" propertyPath="_BQGAQNeYEe-cbZvKYA1sWA" base_ConnectorEnd="_OwQkMdeZEe-cbZvKYA1sWA"/>
+  <Blocks:Block xmi:id="_atnuENeZEe-cbZvKYA1sWA" base_Class="_atlR0NeZEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_d1SCkNeZEe-cbZvKYA1sWA" base_Port="_d1Q0cNeZEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_eVqLwNeZEe-cbZvKYA1sWA" base_Port="_eVoWkNeZEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_mpx-EteZEe-cbZvKYA1sWA" base_Element="_mpx-ENeZEe-cbZvKYA1sWA" propertyPath="_BQGAQNeYEe-cbZvKYA1sWA" base_ConnectorEnd="_mpx-ENeZEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_mpylINeZEe-cbZvKYA1sWA" base_Element="_mpx-EdeZEe-cbZvKYA1sWA" propertyPath="_Zvw-sNeZEe-cbZvKYA1sWA" base_ConnectorEnd="_mpx-EdeZEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_nV2Z4teZEe-cbZvKYA1sWA" base_Element="_nV2Z4NeZEe-cbZvKYA1sWA" propertyPath="_BQGAQNeYEe-cbZvKYA1sWA" base_ConnectorEnd="_nV2Z4NeZEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_nV3A8NeZEe-cbZvKYA1sWA" base_Element="_nV2Z4deZEe-cbZvKYA1sWA" propertyPath="_Zvw-sNeZEe-cbZvKYA1sWA" base_ConnectorEnd="_nV2Z4deZEe-cbZvKYA1sWA"/>
+  <Blocks:Block xmi:id="_vA72QNeZEe-cbZvKYA1sWA" base_Class="_vA6BENeZEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_0_UgQNeZEe-cbZvKYA1sWA" base_Port="_0_SrENeZEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_2T1cINeZEe-cbZvKYA1sWA" base_Port="_2Tzm8NeZEe-cbZvKYA1sWA"/>
+  <PortsAndFlows:FullPort xmi:id="_248UUNeZEe-cbZvKYA1sWA" base_Port="_247GMNeZEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_8cKFQteZEe-cbZvKYA1sWA" base_Element="_8cKFQNeZEe-cbZvKYA1sWA" propertyPath="_BQGAQNeYEe-cbZvKYA1sWA" base_ConnectorEnd="_8cKFQNeZEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_8cKFQ9eZEe-cbZvKYA1sWA" base_Element="_8cKFQdeZEe-cbZvKYA1sWA" propertyPath="_uz6t8NeZEe-cbZvKYA1sWA" base_ConnectorEnd="_8cKFQdeZEe-cbZvKYA1sWA"/>
+  <Blocks:NestedConnectorEnd xmi:id="_EmLgYteaEe-cbZvKYA1sWA" base_Element="_EmLgYNeaEe-cbZvKYA1sWA" propertyPath="_uz6t8NeZEe-cbZvKYA1sWA" base_ConnectorEnd="_EmLgYNeaEe-cbZvKYA1sWA"/>
 </xmi:XMI>
