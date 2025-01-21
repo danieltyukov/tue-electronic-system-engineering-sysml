@@ -597,10 +597,6 @@ instance is NOT typed as a Gantry, but as an abstract
 interface. This port is connected to a Gantry type by
 another abstract interface.</body>
           </ownedComment>
-          <ownedComment xmi:type="uml:Comment" xmi:id="_L_gNMNDdEe-iHfG7lPtkDw">
-            <body>The parametric diagram for financial calculations id added to this constraint block
-</body>
-          </ownedComment>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_F8mWkLNEEe-ZoZe4AvCuiQ" name="i/o" type="_2vhlYKhAEe-kyNuuq7T5lA" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Property" xmi:id="_P2lTcLNEEe-ZoZe4AvCuiQ" name="manufacture" type="_CKHj8KhCEe-kyNuuq7T5lA" aggregation="composite"/>
           <ownedAttribute xmi:type="uml:Port" xmi:id="_4FDQkLNGEe-ZoZe4AvCuiQ" name="abs_port" visibility="public" aggregation="composite"/>
@@ -810,7 +806,7 @@ another abstract interface.</body>
             <ownedRule xmi:type="uml:Constraint" xmi:id="_7giNoLikEe-7qdRIS-E9tA" name="Constraint5" constrainedElement="__47xQLikEe-7qdRIS-E9tA">
               <specification xmi:type="uml:OpaqueExpression" xmi:id="_7gkC0LikEe-7qdRIS-E9tA" name="constraintSpec">
                 <language>C</language>
-                <body>capital_input = (price/1.2 - 1000)*volume + 72000*application_changed + 108000*(delay_total - application_changed*28)/56;</body>
+                <body>capital_input = (price/1.2 )*volume + 72000*application_changed + 108000*(delay_total - application_changed*28)/56;</body>
               </specification>
             </ownedRule>
             <ownedAttribute xmi:type="uml:Property" xmi:id="_0Y3AULikEe-7qdRIS-E9tA" name="price">
