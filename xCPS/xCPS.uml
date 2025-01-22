@@ -8,10 +8,6 @@
       <importedPackage xmi:type="uml:Package" href="pathmap://SysML16_LIBRARIES/SysML-Standard-Library.uml#SysML.package_packagedElement_Libraries"/>
     </packageImport>
     <packagedElement xmi:type="uml:Package" xmi:id="_1Eus8Kg_Ee-kyNuuq7T5lA" name="Behaviour diagram">
-      <ownedComment xmi:type="uml:Comment" xmi:id="_TOnOgLiPEe-WkNwmREx5uA">
-        <body>US specs in &quot;Specifications&quot; package
-</body>
-      </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_lNuSYKjLEe-r95W76X3QKw" name="Use-case diagram">
         <packagedElement xmi:type="uml:UseCase" xmi:id="_oeKvcKjLEe-r95W76X3QKw" name="Start Machine/Batch" subject="_iENz8KhAEe-kyNuuq7T5lA"/>
         <packagedElement xmi:type="uml:UseCase" xmi:id="_zx2DIKjLEe-r95W76X3QKw" name="Assemble product" subject="_iENz8KhAEe-kyNuuq7T5lA">
@@ -1362,10 +1358,6 @@ another abstract interface.</body>
       </ownedComment>
       <ownedComment xmi:type="uml:Comment" xmi:id="_ubL2QLjLEe-vO-UKelSOsg" annotatedElement="_oDDzYLjHEe-vO-UKelSOsg">
         <body>Considerations mean things to avoid or ensure they will happen</body>
-      </ownedComment>
-      <ownedComment xmi:type="uml:Comment" xmi:id="_YHC3ELjREe-6rJr0YM3GuQ">
-        <body>I don't think any of the REQ-001.3.x requirements listed are 
-proper requirements. </body>
       </ownedComment>
       <packagedElement xmi:type="uml:Package" xmi:id="_jKhuwKjPEe-L8f7L98enqw" name="Value_types">
         <packagedElement xmi:type="uml:PrimitiveType" xmi:id="_hNQL8KjeEe-L8f7L98enqw" name="T">
